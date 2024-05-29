@@ -1,7 +1,17 @@
+using Mall_Managment_System.Models;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+var provide = builder.Services.BuildServiceProvider();
+var config = provide.GetRequiredService<IConfiguration>();
+
+builder.Services.AddDbContext<ShopDbContext>(options=>options.
+UseSqlServer(config.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
@@ -22,6 +32,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=index}/{id?}");
 
 app.Run();

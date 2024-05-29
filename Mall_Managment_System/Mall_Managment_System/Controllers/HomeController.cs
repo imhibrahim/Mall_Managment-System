@@ -17,10 +17,7 @@ namespace Mall_Managment_System.Controllers
         {
             return View();
         }
-        public IActionResult Shops()
-        {
-            return View();
-        }
+       
         public IActionResult Booking()
         {
             return View();
