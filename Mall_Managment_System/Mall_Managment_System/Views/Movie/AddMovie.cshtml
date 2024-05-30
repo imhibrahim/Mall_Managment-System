@@ -1,0 +1,62 @@
+﻿@model Mall_Managment_System.Models.MovieViewModel
+
+@{
+    ViewData["Title"] = "AddMovie";
+}
+
+<h1>AddMovie</h1>
+
+
+<div class="container-fluid">
+    <div class="row h-100 align-items-center justify-content-center" style="min-height: 100vh;">
+        <div class=" col-md-10 ">
+            <div class="bg-secondary rounded p-4 p-sm-5 my-4 mx-3">
+                <p class="success">@ViewBag.success</p>
+                <div class="d-flex align-items-center justify-content-between mb-3">
+
+                    <h3 class="text-primary"><i class="fa fa-user-edit me-2"></i>Shops</h3>
+                    <h3>Add Shop</h3>
+                </div>
+
+        <form asp-action="AddMovie" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-floating mb-3">
+                <input asp-for="MovieName" type="text" class="form-control" id="floatingText" placeholder="#Example" />
+                        <label asp-for="MovieName" for="floatingName">Name</label>
+                <span asp-validation-for="MovieName" class="text-danger"></span>
+            </div>
+                    <div class="form-floating mb-3">
+               <input asp-for="Description" type="text" class="form-control" id="floatingText" placeholder="#Example" />
+                        <label asp-for="Description" for="floatingDescription">Description</label>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+                    <div class="form-floating mb-3">
+               <input asp-for="Photo" type="file" class="form-control" id="floatingText"/>
+                        <label asp-for="Photo" for="floatingimage"></label>
+                <span asp-validation-for="Photo" class="text-danger"></span>
+            </div>
+                    <div class="form-floating mb-3">
+                <input asp-for="TotalSeats" type="number" class="form-control" id="floatingText" placeholder="#####" />
+                        <label asp-for="TotalSeats" for="floatingInput">Totel Seats</label>
+                <span asp-validation-for="TotalSeats" class="text-danger"></span>
+            </div>
+                    <div class="form-floating mb-3">
+                <input asp-for="AvailableSeats" type="number" class="form-control" id="floatingText" placeholder="#####" />
+                        <label asp-for="AvailableSeats" for="floatingInput">Available seats</label>
+                <span asp-validation-for="AvailableSeats" class="text-danger"></span>
+            </div>
+
+                    <input type="submit" value="Create" class="btn btn-primary py-3 w-100 mb-4" />
+           
+        </form>
+                <div>
+                    <a asp-action="Index">Back to List</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

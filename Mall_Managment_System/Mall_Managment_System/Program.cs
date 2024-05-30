@@ -10,8 +10,27 @@ builder.Services.AddControllersWithViews();
 var provide = builder.Services.BuildServiceProvider();
 var config = provide.GetRequiredService<IConfiguration>();
 
+//Shops Use
 builder.Services.AddDbContext<ShopDbContext>(options=>options.
 UseSqlServer(config.GetConnectionString("DefaultConnection")));
+
+//Movies Use
+builder.Services.AddDbContext<MovieDbContext>(options => options.
+UseSqlServer(config.GetConnectionString("DefaultConnection")));
+
+
+//Items Use
+builder.Services.AddDbContext<ItemDbContext>(options => options.
+UseSqlServer(config.GetConnectionString("DefaultConnection")));
+
+//food court Use
+builder.Services.AddDbContext<FoodCourtDbContext>(options => options.
+UseSqlServer(config.GetConnectionString("DefaultConnection")));
+
+//Gallery Use
+builder.Services.AddDbContext<GallaryDbContext>(options => options.
+UseSqlServer(config.GetConnectionString("DefaultConnection")));
+
 
 var app = builder.Build();
 

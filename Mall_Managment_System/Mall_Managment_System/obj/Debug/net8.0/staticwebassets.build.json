@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qZIBpt8OG5T521raZe1LWCS8S9J5NdsxBnbt8uQTGWg=",
+  "Hash": "TSq1s2iqnb4gZV/xzGTw1e0XfFi/yDXgATpmIU0XNd8=",
   "Source": "Mall_Managment_System",
   "BasePath": "_content/Mall_Managment_System",
   "Mode": "Default",
@@ -2259,6 +2259,25 @@
       "OriginalItemSpec": "wwwroot\\images\\5af9a61b-ee7a-46db-99ad-19e2f22b5b76_about002_770x.webp"
     },
     {
+      "Identity": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\6167911a-5b28-4e77-9c1b-c8390755db0e_Image20240524101642.png",
+      "SourceId": "Mall_Managment_System",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\",
+      "BasePath": "_content/Mall_Managment_System",
+      "RelativePath": "images/6167911a-5b28-4e77-9c1b-c8390755db0e_Image20240524101642.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\6167911a-5b28-4e77-9c1b-c8390755db0e_Image20240524101642.png"
+    },
+    {
       "Identity": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\72ed4aef-be70-439c-bb8a-390c6a1817db_blog-img-5-650x650.jpg",
       "SourceId": "Mall_Managment_System",
       "SourceType": "Discovered",
@@ -2276,6 +2295,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\72ed4aef-be70-439c-bb8a-390c6a1817db_blog-img-5-650x650.jpg"
+    },
+    {
+      "Identity": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\74098a69-1e46-4041-9c13-7a8ddbb3bd5f_Image20240524101632.png",
+      "SourceId": "Mall_Managment_System",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\",
+      "BasePath": "_content/Mall_Managment_System",
+      "RelativePath": "images/74098a69-1e46-4041-9c13-7a8ddbb3bd5f_Image20240524101632.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\74098a69-1e46-4041-9c13-7a8ddbb3bd5f_Image20240524101632.png"
     },
     {
       "Identity": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\ac61a20c-070b-4d47-89ac-dbbf42ad4a82_Image20240524101632.png",

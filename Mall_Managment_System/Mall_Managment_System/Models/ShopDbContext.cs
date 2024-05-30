@@ -4,7 +4,7 @@ namespace Mall_Managment_System.Models
 {
     public class ShopDbContext:DbContext
     {
-        public ShopDbContext(DbContextOptions options):base(options) { 
+        public ShopDbContext(DbContextOptions<ShopDbContext> options):base(options) { 
         
         }
 

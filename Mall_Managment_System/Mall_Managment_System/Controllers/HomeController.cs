@@ -27,10 +27,6 @@ namespace Mall_Managment_System.Controllers
         {
             return View();
         }
-        public IActionResult Movies()
-        {
-            return View();
-        }
         public IActionResult Food_Court()
         {
             return View();

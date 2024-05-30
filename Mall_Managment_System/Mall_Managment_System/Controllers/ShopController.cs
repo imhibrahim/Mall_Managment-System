@@ -19,10 +19,12 @@ namespace Mall_Managment_System.Controllers
         {
             return View(shop_context.Shops.ToList());
         }
+
         public IActionResult Addproduct()
         {
             return View();
         }
+
         [HttpPost]
         public IActionResult Addproduct(ShopViewModel shop)
         {
