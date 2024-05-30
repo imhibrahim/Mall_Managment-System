@@ -1,135 +1,127 @@
 is_global = true
 build_property.TargetFramework = net8.0
-build_property.TargetFramework = net8.0
-build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
-build_property.UsingMicrosoftNETSdkWeb = true
-build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
-build_property.InvariantGlobalization = 
-build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
-build_property.EnforceExtendedAnalyzerRules = 
-build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Mall_Managment_System
 build_property.RootNamespace = Mall_Managment_System
-build_property.ProjectDir = D:\Mall_Managment-System\Mall_Managment_System\Mall_Managment_System\
+build_property.ProjectDir = E:\dot net core project\Mall_Managment-System\Mall_Managment_System\Mall_Managment_System\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Mall_Managment-System\Mall_Managment_System\Mall_Managment_System
+build_property.MSBuildProjectDirectory = E:\dot net core project\Mall_Managment-System\Mall_Managment_System\Mall_Managment_System
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Contact/AddContact.cshtml]
+[E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Contact/AddContact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxBZGRDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Contact/Index.cshtml]
+[E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/FoodCourt/AddCourt.cshtml]
+[E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/FoodCourt/AddCourt.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZENvdXJ0XEFkZENvdXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/FoodCourt/Index.cshtml]
+[E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/FoodCourt/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZENvdXJ0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Gallery/Addgallery.cshtml]
+[E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Gallery/Addgallery.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsbGVyeVxBZGRnYWxsZXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Gallery/Index.cshtml]
+[E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Gallery/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsbGVyeVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Home/Booking.cshtml]
+[E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Home/Booking.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCb29raW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Home/Contact.cshtml]
+[E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Home/Feedback.cshtml]
+[E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Home/Feedback.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGZWVkYmFjay5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Home/Food_Court.cshtml]
+[E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Home/Food_Court.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb29kX0NvdXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Home/Food_Item.cshtml]
+[E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Home/Food_Item.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb29kX0l0ZW0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Home/Gallary.cshtml]
+[E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Home/Gallary.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHYWxsYXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Home/Index.cshtml]
+[E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Home/Item.cshtml]
+[E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Home/Item.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJdGVtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Home/Privacy.cshtml]
+[E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Home/Users.cshtml]
+[E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Home/Users.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc2Vycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Item/AddItem.cshtml]
+[E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Item/AddItem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxBZGRJdGVtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Item/Index.cshtml]
+[E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Item/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Movie/AddMovie.cshtml]
+[E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Movie/AddMovie.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcQWRkTW92aWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Movie/Index.cshtml]
+[E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Movie/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Shared/Error.cshtml]
+[E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Shop/Addproduct.cshtml]
+[E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Shop/Addproduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxBZGRwcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Shop/index.cshtml]
+[E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Shop/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxpbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/_ViewImports.cshtml]
+[E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/_ViewStart.cshtml]
+[E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Shared/_Layout.cshtml]
+[E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-af78u3a0ju

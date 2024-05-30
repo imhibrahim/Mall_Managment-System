@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Mall_Managment_System.Migrations.FoodCourtDb
 {
-    [DbContext(typeof(FoodCourtDbContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     [Migration("20240530071144_foodcourt")]
     partial class foodcourt
     {

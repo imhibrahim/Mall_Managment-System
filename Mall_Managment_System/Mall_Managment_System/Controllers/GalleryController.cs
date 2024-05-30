@@ -6,11 +6,11 @@ namespace Mall_Managment_System.Controllers
 {
     public class GalleryController : Controller
     {
-        GallaryDbContext gallery_context;
+        ApplicationDbContext gallery_context;
         IWebHostEnvironment env;
 
 
-        public GalleryController(GallaryDbContext gallery, IWebHostEnvironment hc)
+        public GalleryController(ApplicationDbContext gallery, IWebHostEnvironment hc)
         {
             this.gallery_context = gallery;
             env = hc;

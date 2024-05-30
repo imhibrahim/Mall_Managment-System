@@ -5,10 +5,10 @@ namespace Mall_Managment_System.Controllers
 {
     public class ItemController : Controller
     {
-        ItemDbContext Item_context;
+        ApplicationDbContext Item_context;
         IWebHostEnvironment env;
 
-        public ItemController(ItemDbContext item, IWebHostEnvironment hc)
+        public ItemController(ApplicationDbContext item, IWebHostEnvironment hc)
         {
             this.Item_context = item;
             env = hc;

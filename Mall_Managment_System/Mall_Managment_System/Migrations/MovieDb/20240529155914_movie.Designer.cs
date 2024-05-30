@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Mall_Managment_System.Migrations.MovieDb
 {
-    [DbContext(typeof(MovieDbContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     [Migration("20240529155914_movie")]
     partial class movie
     {

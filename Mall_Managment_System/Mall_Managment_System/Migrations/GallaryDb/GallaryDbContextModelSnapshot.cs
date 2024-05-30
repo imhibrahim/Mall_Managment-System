@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Mall_Managment_System.Migrations.GallaryDb
 {
-    [DbContext(typeof(GallaryDbContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     partial class GallaryDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

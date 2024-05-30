@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Mall_Managment_System.Migrations.ContactDb
 {
-    [DbContext(typeof(ContactDbContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     [Migration("20240530123936_contact")]
     partial class contact
     {

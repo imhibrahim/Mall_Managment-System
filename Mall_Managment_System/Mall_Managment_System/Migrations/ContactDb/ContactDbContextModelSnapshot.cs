@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Mall_Managment_System.Migrations.ContactDb
 {
-    [DbContext(typeof(ContactDbContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     partial class ContactDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

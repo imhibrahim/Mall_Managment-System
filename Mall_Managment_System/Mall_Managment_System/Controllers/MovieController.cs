@@ -5,10 +5,10 @@ namespace Mall_Managment_System.Controllers
 {
     public class MovieController : Controller
     {
-        MovieDbContext Movie_context;
+        ApplicationDbContext Movie_context;
         IWebHostEnvironment env;
 
-        public MovieController(MovieDbContext movies, IWebHostEnvironment hc)
+        public MovieController(ApplicationDbContext movies, IWebHostEnvironment hc)
         {
             this.Movie_context = movies;
             env = hc;

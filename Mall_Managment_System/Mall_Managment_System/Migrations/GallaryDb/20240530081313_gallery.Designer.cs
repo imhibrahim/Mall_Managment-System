@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Mall_Managment_System.Migrations.GallaryDb
 {
-    [DbContext(typeof(GallaryDbContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     [Migration("20240530081313_gallery")]
     partial class gallery
     {

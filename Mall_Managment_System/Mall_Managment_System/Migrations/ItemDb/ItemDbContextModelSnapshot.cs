@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Mall_Managment_System.Migrations.ItemDb
 {
-    [DbContext(typeof(ItemDbContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     partial class ItemDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

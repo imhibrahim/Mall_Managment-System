@@ -6,10 +6,10 @@ namespace Mall_Managment_System.Controllers
 {
     public class ContactController : Controller
     {
-        ContactDbContext Contact_context;
+        ApplicationDbContext Contact_context;
         IWebHostEnvironment env;
 
-        public ContactController(ContactDbContext Contact, IWebHostEnvironment hc)
+        public ContactController(ApplicationDbContext Contact, IWebHostEnvironment hc)
         {
             this.Contact_context = Contact;
             env = hc;

@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Mall_Managment_System.Migrations.MovieDb
 {
-    [DbContext(typeof(MovieDbContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     partial class MovieDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

@@ -5,10 +5,10 @@ namespace Mall_Managment_System.Controllers
 {
     public class FoodCourtController : Controller
     {
-        FoodCourtDbContext foodCourt_context;
+        ApplicationDbContext foodCourt_context;
         IWebHostEnvironment env;
 
-        public FoodCourtController(FoodCourtDbContext FoodCourt, IWebHostEnvironment hc)
+        public FoodCourtController(ApplicationDbContext FoodCourt, IWebHostEnvironment hc)
         {
             this.foodCourt_context = FoodCourt;
             env = hc;

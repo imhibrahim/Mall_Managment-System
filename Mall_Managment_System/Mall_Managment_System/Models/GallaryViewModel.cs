@@ -6,7 +6,8 @@ namespace Mall_Managment_System.Models
     public class GallaryViewModel
     {
 
-        [Key] public int Id { get; set; }
+        [Key] 
+        public int Id { get; set; }
         [Required]
         [Column("Name", TypeName = "varchar(100)")]
         public string Name { get; set; }

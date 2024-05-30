@@ -5,11 +5,10 @@ namespace Mall_Managment_System.Controllers
 {
     public class ShopController : Controller
     {
-        ShopDbContext shop_context;
-        IWebHostEnvironment env;
+      private readonly  ApplicationDbContext shop_context;
+      private readonly  IWebHostEnvironment env;
 
-
-        public ShopController(ShopDbContext shops, IWebHostEnvironment hc)
+        public ShopController(ApplicationDbContext shops, IWebHostEnvironment hc)
         {
              this.shop_context = shops;
             env = hc;

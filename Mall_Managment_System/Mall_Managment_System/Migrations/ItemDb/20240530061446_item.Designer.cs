@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Mall_Managment_System.Migrations.ItemDb
 {
-    [DbContext(typeof(ItemDbContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     [Migration("20240530061446_item")]
     partial class item
     {
