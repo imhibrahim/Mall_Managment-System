@@ -1,5 +1,6 @@
 ﻿using Mall_Managment_System.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Mall_Managment_System.Controllers
 {
@@ -21,7 +22,24 @@ namespace Mall_Managment_System.Controllers
 
         public IActionResult AddItem()
         {
-            return View();
+            // Fetch the list of shops from the database
+            var shops = Item_context.Shops.ToList();
+
+            // Check if shops is null or empty
+            if (shops == null || !shops.Any())
+            {
+                // Handle the case where no shops are found
+                // For example, you might return an error view or an empty SelectList
+                ViewBag.ShopId = new SelectList(Enumerable.Empty<SelectListItem>());
+            }
+            else
+            {
+                // Create a SelectList to pass to the view
+                ViewBag.ShopId = new SelectList(shops, "ID", "Name");
+            }
+
+            // Return the view
+            return View(new ItemViewModel()); // Ensure the model is instantiated
         }
 
         [HttpPost]

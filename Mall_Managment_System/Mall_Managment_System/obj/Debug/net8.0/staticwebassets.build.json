@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Rzn2OqhWbtUZyiWJr+nIdXFTkp4kq5z8RolpoNQJJJI=",
+  "Hash": "TlEUQc7oMaRD8yDWGLTaKg2g4Zo//rPO5jXJuHbN9Vo=",
   "Source": "Mall_Managment_System",
   "BasePath": "_content/Mall_Managment_System",
   "Mode": "Default",
@@ -2181,6 +2181,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\06fb00c4-df10-45d7-a88c-d78ee9da1c10_WhatsApp Image 2024-05-16 at 23.57.49_357048e6.jpg",
+      "SourceId": "Mall_Managment_System",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\",
+      "BasePath": "_content/Mall_Managment_System",
+      "RelativePath": "images/06fb00c4-df10-45d7-a88c-d78ee9da1c10_WhatsApp Image 2024-05-16 at 23.57.49_357048e6.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\06fb00c4-df10-45d7-a88c-d78ee9da1c10_WhatsApp Image 2024-05-16 at 23.57.49_357048e6.jpg"
     },
     {
       "Identity": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\09966e92-2a42-49e2-904c-6c9670a87f56_Image20240524101632.png",
