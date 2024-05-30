@@ -1888,6 +1888,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\ac61a20c-070b-4d47-89ac-dbbf42ad4a82_Image20240524101632.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\c2057171-b77f-4e24-872d-d8964e7ab9e5_vaccine databese.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/c2057171-b77f-4e24-872d-d8964e7ab9e5_vaccine databese.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\c2057171-b77f-4e24-872d-d8964e7ab9e5_vaccine databese.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\f796c235-3d87-4376-8e99-e5c0046159f1_blog-img-5-650x650.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Mall_Managment_System</SourceId>

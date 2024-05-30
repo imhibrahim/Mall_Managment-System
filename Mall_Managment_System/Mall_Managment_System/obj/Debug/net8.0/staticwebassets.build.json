@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TSq1s2iqnb4gZV/xzGTw1e0XfFi/yDXgATpmIU0XNd8=",
+  "Hash": "0WQiBQcWUfAjlcqlBKW+R1fZ+ZyEVPrteCWHX0D9yO8=",
   "Source": "Mall_Managment_System",
   "BasePath": "_content/Mall_Managment_System",
   "Mode": "Default",
@@ -2333,6 +2333,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\ac61a20c-070b-4d47-89ac-dbbf42ad4a82_Image20240524101632.png"
+    },
+    {
+      "Identity": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\c2057171-b77f-4e24-872d-d8964e7ab9e5_vaccine databese.png",
+      "SourceId": "Mall_Managment_System",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\",
+      "BasePath": "_content/Mall_Managment_System",
+      "RelativePath": "images/c2057171-b77f-4e24-872d-d8964e7ab9e5_vaccine databese.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\c2057171-b77f-4e24-872d-d8964e7ab9e5_vaccine databese.png"
     },
     {
       "Identity": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\f796c235-3d87-4376-8e99-e5c0046159f1_blog-img-5-650x650.jpg",

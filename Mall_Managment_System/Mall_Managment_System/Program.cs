@@ -31,6 +31,9 @@ UseSqlServer(config.GetConnectionString("DefaultConnection")));
 builder.Services.AddDbContext<GallaryDbContext>(options => options.
 UseSqlServer(config.GetConnectionString("DefaultConnection")));
 
+//Contact Use
+builder.Services.AddDbContext<ContactDbContext>(options => options.
+UseSqlServer(config.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
