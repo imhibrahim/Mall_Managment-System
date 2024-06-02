@@ -31,6 +31,10 @@ namespace Mall_Managment_System.Controllers
         
             Contact C = new Contact
             {
+                Name= contact.Name,
+                Email= contact.Email,
+                Number= contact.Number,
+                Massage = contact.Massage
              
                
             };

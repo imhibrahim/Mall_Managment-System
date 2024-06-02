@@ -33,9 +33,9 @@
                                 <td scope="row">@Html.DisplayFor(modelItem => item.Description)</td>
                                 <td scope="row"><img src="~/images/@Html.DisplayFor(modelItem => item.Image)" style="width:60px;height:60px;" /></td>
                                 <td scope="row">
-                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+               <button class="btn btn-outline-info me-2" data-id="@item.ID" id="editbtn">Edit</button>
+              <button class="btn btn-outline-primary" asp-action="Delete" asp-route-id="@item.ID">Delete</button>
+                
 
             </td>
         </tr>
@@ -46,3 +46,60 @@
         </div>
     </div>
 </div>
+
+<!-- Modal -->
+@* <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" asp-action="" enctype="multipart/form-data">
+            <div class="modal-body">
+               
+                <input type="text" name="shopid" readonly id="shopid" />
+                <br />
+                <input type="text" name="shopname" readonly id="shopname" />
+                <br />
+                <input type="text" name="shopdesc" readonly id="shopdesc" />
+                <br />
+                <input type="file" name="shopimage" readonly id="shopimage" />
+
+               
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary">Save changes</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div> *@
+
+@* <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+                                <script>
+                                   $(document).ready(function(){
+
+                                        $(document).on("click", "#editbtn", function(){
+                                            //alert("");
+
+                                            var id = $(this).attr("data-id");
+                                            //console.log(id);
+                                            $.ajax({
+                                                url: "shop/getdata/" + id,
+                                                type: "POST",
+                                                success:function(response) {
+
+                                                    $("#exampleModal").modal("show");
+                    $("#shopid").val(response.ID);
+                                                    $("#shopname").val(response.ID);
+                    $("#shopdesc").val(response.Shop_Description);
+                    $("#shopimage").val(response.Shop_Image);
+                                                }
+                                            });
+                                        });
+                                    });
+
+                                </script> *@

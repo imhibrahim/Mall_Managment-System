@@ -5,12 +5,13 @@ namespace Mall_Managment_System.Controllers
 {
     public class ShopController : Controller
     {
-      private readonly  ApplicationDbContext shop_context;
-      private readonly  IWebHostEnvironment env;
+        private readonly ApplicationDbContext shop_context;
+        private readonly IWebHostEnvironment env;
+
 
         public ShopController(ApplicationDbContext shops, IWebHostEnvironment hc)
         {
-             this.shop_context = shops;
+            this.shop_context = shops;
             env = hc;
         }
 
@@ -28,11 +29,11 @@ namespace Mall_Managment_System.Controllers
         public IActionResult Addproduct(ShopViewModel shop)
         {
             string filename = "";
-            if(shop.Photo != null)
+            if (shop.Photo != null)
             {
                 string uploadfolder = Path.Combine(env.WebRootPath, "images");
-                filename=Guid.NewGuid().ToString()+"_"+shop.Photo.FileName;
-                string filepath=Path.Combine(uploadfolder, filename);   
+                filename = Guid.NewGuid().ToString() + "_" + shop.Photo.FileName;
+                string filepath = Path.Combine(uploadfolder, filename);
                 shop.Photo.CopyTo(new FileStream(filepath, FileMode.Create));
             }
             Shops S = new Shops
@@ -41,13 +42,28 @@ namespace Mall_Managment_System.Controllers
                 Description = shop.Description,
                 Image = filename
             };
-           
+
             shop_context.Shops.Add(S);
             shop_context.SaveChanges();
             ViewBag.success = "Recoard inserted";
 
             return RedirectToAction("index");
         }
+
+
+       
+
+
+        //public IActionResult getdata(int id)
+        //{
+        //    var check = shop_context.Shops.Where(x => x.ID == id).FirstOrDefault();
+        //    if (check == null)
+        //    {
+
+        //    }
+        //    return Json(check);
+        //}
+
 
 
     }

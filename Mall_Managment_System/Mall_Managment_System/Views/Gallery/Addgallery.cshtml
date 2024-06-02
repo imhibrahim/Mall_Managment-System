@@ -4,33 +4,44 @@
     ViewData["Title"] = "Addgallery";
 }
 
-<h1>Addgallery</h1>
+<h1>Add Gallery</h1>
 
-<h4>Gallary</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
+<div class="container-fluid">
+    <div class="row h-100 align-items-center justify-content-center" style="min-height: 100vh;">
+        <div class=" col-md-10 ">
+            <div class="bg-secondary rounded p-4 p-sm-5 my-4 mx-3">
+                <p class="success">@ViewBag.success</p>
+                <div class="d-flex align-items-center justify-content-between mb-3">
+
+                    <h3 class="text-primary"><i class="fa fa-user-edit me-2"></i>Gallery</h3>
+                    <h3>Add Gallery</h3>
+                </div>
+
         <form asp-action="Addgallery" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
+                            <div class="form-floating mb-3">
+             
                 <input asp-for="Name" class="form-control" />
+                        <label asp-for="Name" class="control-label" for="floatingName">Name</label>
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Photo" class="control-label"></label>
+                            <div class="form-floating mb-3">
+               
                 <input asp-for="Photo" class="form-control" />
+                        <label asp-for="Photo" class="control-label" for="floatingName"></label>
                 <span asp-validation-for="Photo" class="text-danger"></span>
             </div>
-            <div class="form-group">
+                            <div class="form-floating mb-3">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
-    </div>
-</div>
-
+                    
 <div>
     <a asp-action="Index">Back to List</a>
+</div>
+            </div>
+        </div>
+    </div>
 </div>
 
 @section Scripts {

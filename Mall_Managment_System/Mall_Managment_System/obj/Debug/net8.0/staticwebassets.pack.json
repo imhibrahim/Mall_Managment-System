@@ -1,735 +1,743 @@
 {
   "Files": [
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Mall_Managment_System.bundle.scp.css",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Mall_Managment_System.bundle.scp.css",
       "PackagePath": "staticwebassets\\Mall_Managment_System.bundle.scp.css"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\css\\bootstrap.min.css",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\assests\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\css\\style.css",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\css\\style.css",
       "PackagePath": "staticwebassets\\assests\\css\\style.css"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\img\\testimonial-1.jpg",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\img\\testimonial-1.jpg",
       "PackagePath": "staticwebassets\\assests\\img\\testimonial-1.jpg"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\img\\testimonial-2.jpg",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\img\\testimonial-2.jpg",
       "PackagePath": "staticwebassets\\assests\\img\\testimonial-2.jpg"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\img\\user.jpg",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\img\\user.jpg",
       "PackagePath": "staticwebassets\\assests\\img\\user.jpg"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\js\\main.js",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\js\\main.js",
       "PackagePath": "staticwebassets\\assests\\js\\main.js"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\chart\\chart.min.js",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\chart\\chart.min.js",
       "PackagePath": "staticwebassets\\assests\\lib\\chart\\chart.min.js"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\easing\\easing.js",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\easing\\easing.js",
       "PackagePath": "staticwebassets\\assests\\lib\\easing\\easing.js"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\easing\\easing.min.js",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\easing\\easing.min.js",
       "PackagePath": "staticwebassets\\assests\\lib\\easing\\easing.min.js"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\owlcarousel\\LICENSE",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\owlcarousel\\LICENSE",
       "PackagePath": "staticwebassets\\assests\\lib\\owlcarousel"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\owlcarousel\\assets\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\assests\\lib\\owlcarousel\\assets\\ajax-loader.gif"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\owlcarousel\\assets\\owl.carousel.css",
       "PackagePath": "staticwebassets\\assests\\lib\\owlcarousel\\assets\\owl.carousel.css"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
       "PackagePath": "staticwebassets\\assests\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\owlcarousel\\assets\\owl.theme.default.css",
       "PackagePath": "staticwebassets\\assests\\lib\\owlcarousel\\assets\\owl.theme.default.css"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
       "PackagePath": "staticwebassets\\assests\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\owlcarousel\\assets\\owl.theme.green.css",
       "PackagePath": "staticwebassets\\assests\\lib\\owlcarousel\\assets\\owl.theme.green.css"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
       "PackagePath": "staticwebassets\\assests\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\owlcarousel\\assets\\owl.video.play.png",
       "PackagePath": "staticwebassets\\assests\\lib\\owlcarousel\\assets\\owl.video.play.png"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\owlcarousel\\owl.carousel.js",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\owlcarousel\\owl.carousel.js",
       "PackagePath": "staticwebassets\\assests\\lib\\owlcarousel\\owl.carousel.js"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\owlcarousel\\owl.carousel.min.js",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\owlcarousel\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\assests\\lib\\owlcarousel\\owl.carousel.min.js"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
       "PackagePath": "staticwebassets\\assests\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
       "PackagePath": "staticwebassets\\assests\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\tempusdominus\\js\\moment-timezone.min.js",
       "PackagePath": "staticwebassets\\assests\\lib\\tempusdominus\\js\\moment-timezone.min.js"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\tempusdominus\\js\\moment.min.js",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\tempusdominus\\js\\moment.min.js",
       "PackagePath": "staticwebassets\\assests\\lib\\tempusdominus\\js\\moment.min.js"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
       "PackagePath": "staticwebassets\\assests\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
       "PackagePath": "staticwebassets\\assests\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\waypoints\\links.php",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\waypoints\\links.php",
       "PackagePath": "staticwebassets\\assests\\lib\\waypoints\\links.php"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\waypoints\\waypoints.min.js",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\lib\\waypoints\\waypoints.min.js",
       "PackagePath": "staticwebassets\\assests\\lib\\waypoints\\waypoints.min.js"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_accordion.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_accordion.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_accordion.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_alert.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_alert.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_alert.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_badge.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_badge.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_badge.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_breadcrumb.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_breadcrumb.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_button-group.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_button-group.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_button-group.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_buttons.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_buttons.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_buttons.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_card.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_card.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_card.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_carousel.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_carousel.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_carousel.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_close.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_close.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_close.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_containers.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_containers.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_containers.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_dropdown.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_dropdown.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_forms.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_forms.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_forms.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_functions.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_functions.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_functions.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_grid.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_grid.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_grid.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_helpers.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_helpers.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_helpers.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_images.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_images.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_images.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_list-group.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_list-group.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_list-group.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_mixins.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_mixins.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_mixins.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_modal.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_modal.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_modal.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_nav.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_nav.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_nav.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_navbar.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_navbar.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_navbar.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_offcanvas.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_offcanvas.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_pagination.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_pagination.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_pagination.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_popover.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_popover.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_popover.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_progress.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_progress.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_progress.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_reboot.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_reboot.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_reboot.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_root.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_root.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_root.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_spinners.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_spinners.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_spinners.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_tables.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_tables.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_tables.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_toasts.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_toasts.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_toasts.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_tooltip.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_tooltip.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_transitions.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_transitions.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_transitions.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_type.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_type.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_type.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_utilities.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_utilities.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_utilities.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_variables.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\_variables.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\_variables.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\bootstrap.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\bootstrap.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\forms\\_labels.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\forms\\_labels.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\forms\\_validation.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\forms\\_validation.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\helpers\\_position.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\helpers\\_position.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_container.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\mixins\\_container.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_image.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\mixins\\_image.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\utilities\\_api.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\utilities\\_api.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\assests\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
       "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\css\\site.css",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\favicon.ico",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\06fb00c4-df10-45d7-a88c-d78ee9da1c10_WhatsApp Image 2024-05-16 at 23.57.49_357048e6.jpg",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\06fb00c4-df10-45d7-a88c-d78ee9da1c10_WhatsApp Image 2024-05-16 at 23.57.49_357048e6.jpg",
       "PackagePath": "staticwebassets\\images\\06fb00c4-df10-45d7-a88c-d78ee9da1c10_WhatsApp Image 2024-05-16 at 23.57.49_357048e6.jpg"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\09966e92-2a42-49e2-904c-6c9670a87f56_Image20240524101632.png",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\09966e92-2a42-49e2-904c-6c9670a87f56_Image20240524101632.png",
       "PackagePath": "staticwebassets\\images\\09966e92-2a42-49e2-904c-6c9670a87f56_Image20240524101632.png"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\4b37fad2-d5b8-4c6a-ab00-5fb387fe16f7_WhatsApp Image 2024-05-17 at 00.33.06_5c637850.jpg",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\0e857385-7522-4935-aadf-8a293a6bded5_test.png",
+      "PackagePath": "staticwebassets\\images\\0e857385-7522-4935-aadf-8a293a6bded5_test.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\4b37fad2-d5b8-4c6a-ab00-5fb387fe16f7_WhatsApp Image 2024-05-17 at 00.33.06_5c637850.jpg",
       "PackagePath": "staticwebassets\\images\\4b37fad2-d5b8-4c6a-ab00-5fb387fe16f7_WhatsApp Image 2024-05-17 at 00.33.06_5c637850.jpg"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\5af9a61b-ee7a-46db-99ad-19e2f22b5b76_about002_770x.webp",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\5af9a61b-ee7a-46db-99ad-19e2f22b5b76_about002_770x.webp",
       "PackagePath": "staticwebassets\\images\\5af9a61b-ee7a-46db-99ad-19e2f22b5b76_about002_770x.webp"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\6167911a-5b28-4e77-9c1b-c8390755db0e_Image20240524101642.png",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\6167911a-5b28-4e77-9c1b-c8390755db0e_Image20240524101642.png",
       "PackagePath": "staticwebassets\\images\\6167911a-5b28-4e77-9c1b-c8390755db0e_Image20240524101642.png"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\72ed4aef-be70-439c-bb8a-390c6a1817db_blog-img-5-650x650.jpg",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\72ed4aef-be70-439c-bb8a-390c6a1817db_blog-img-5-650x650.jpg",
       "PackagePath": "staticwebassets\\images\\72ed4aef-be70-439c-bb8a-390c6a1817db_blog-img-5-650x650.jpg"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\74098a69-1e46-4041-9c13-7a8ddbb3bd5f_Image20240524101632.png",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\74098a69-1e46-4041-9c13-7a8ddbb3bd5f_Image20240524101632.png",
       "PackagePath": "staticwebassets\\images\\74098a69-1e46-4041-9c13-7a8ddbb3bd5f_Image20240524101632.png"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\a8ef9b98-0d93-4fda-a2b0-a0c4e60a2e74_WhatsApp Image 2024-05-17 at 00.56.36_1e97e3e0.jpg",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\a8ef9b98-0d93-4fda-a2b0-a0c4e60a2e74_WhatsApp Image 2024-05-17 at 00.56.36_1e97e3e0.jpg",
       "PackagePath": "staticwebassets\\images\\a8ef9b98-0d93-4fda-a2b0-a0c4e60a2e74_WhatsApp Image 2024-05-17 at 00.56.36_1e97e3e0.jpg"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\ac61a20c-070b-4d47-89ac-dbbf42ad4a82_Image20240524101632.png",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\ac61a20c-070b-4d47-89ac-dbbf42ad4a82_Image20240524101632.png",
       "PackagePath": "staticwebassets\\images\\ac61a20c-070b-4d47-89ac-dbbf42ad4a82_Image20240524101632.png"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\c2057171-b77f-4e24-872d-d8964e7ab9e5_vaccine databese.png",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\c2057171-b77f-4e24-872d-d8964e7ab9e5_vaccine databese.png",
       "PackagePath": "staticwebassets\\images\\c2057171-b77f-4e24-872d-d8964e7ab9e5_vaccine databese.png"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\f796c235-3d87-4376-8e99-e5c0046159f1_blog-img-5-650x650.jpg",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\d028ef53-7c5e-4e03-a059-d428fdfe5272_Image20240524101632.png",
+      "PackagePath": "staticwebassets\\images\\d028ef53-7c5e-4e03-a059-d428fdfe5272_Image20240524101632.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\f796c235-3d87-4376-8e99-e5c0046159f1_blog-img-5-650x650.jpg",
       "PackagePath": "staticwebassets\\images\\f796c235-3d87-4376-8e99-e5c0046159f1_blog-img-5-650x650.jpg"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\fcffa4ad-9e69-418c-a9c2-f1cd7a40457f_about 1.webp",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\fcffa4ad-9e69-418c-a9c2-f1cd7a40457f_about 1.webp",
       "PackagePath": "staticwebassets\\images\\fcffa4ad-9e69-418c-a9c2-f1cd7a40457f_about 1.webp"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\js\\site.js",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
