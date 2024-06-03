@@ -16,5 +16,6 @@ namespace Mall_Managment_System.Models
         public DbSet<Movies> Movies { get; set; }
         public DbSet<Shops> Shops { get; set; }
         public DbSet<Items> Items { get; set; }
+        public DbSet<FoodItem> FoodItems { get; set; }
     }
 }

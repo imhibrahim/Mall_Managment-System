@@ -21,6 +21,202 @@ namespace Mall_Managment_System.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Mall_Managment_System.Models.Contact", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("varchar(100)")
+                        .HasColumnName("Contact_Email");
+
+                    b.Property<string>("Massage")
+                        .IsRequired()
+                        .HasColumnType("varchar(max)")
+                        .HasColumnName("Contact_Massage");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("varchar(100)")
+                        .HasColumnName("Contact_Name");
+
+                    b.Property<int>("Number")
+                        .HasColumnType("int")
+                        .HasColumnName("Contact_Number");
+
+                    b.HasKey("id");
+
+                    b.ToTable("contact");
+                });
+
+            modelBuilder.Entity("Mall_Managment_System.Models.FoodItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("varchar(max)")
+                        .HasColumnName("Description");
+
+                    b.Property<int>("FoodCourt_id")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("varchar(100)")
+                        .HasColumnName("Food_Image");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("varchar(100)")
+                        .HasColumnName("Food_Name");
+
+                    b.Property<int>("Price")
+                        .HasColumnType("int")
+                        .HasColumnName("Price");
+
+                    b.Property<int>("foodcourtID")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("foodcourtID");
+
+                    b.ToTable("FoodItems");
+                });
+
+            modelBuilder.Entity("Mall_Managment_System.Models.Foodcourt", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("varchar(max)")
+                        .HasColumnName("Description");
+
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("varchar(100)")
+                        .HasColumnName("Image");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("varchar(100)")
+                        .HasColumnName("FoodCourt_Name");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("FoodCourt");
+                });
+
+            modelBuilder.Entity("Mall_Managment_System.Models.Gallary", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("varchar(100)")
+                        .HasColumnName("Image");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("varchar(100)")
+                        .HasColumnName("Name");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Gallary");
+                });
+
+            modelBuilder.Entity("Mall_Managment_System.Models.Items", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("varchar(max)")
+                        .HasColumnName("Description");
+
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("varchar(100)")
+                        .HasColumnName("Item_Image");
+
+                    b.Property<string>("ItemName")
+                        .IsRequired()
+                        .HasColumnType("varchar(100)")
+                        .HasColumnName("Item_Name");
+
+                    b.Property<int>("Price")
+                        .HasColumnType("int")
+                        .HasColumnName("Price");
+
+                    b.Property<int>("ShopId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ShopId");
+
+                    b.ToTable("Items");
+                });
+
+            modelBuilder.Entity("Mall_Managment_System.Models.Movies", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("AvailableSeats")
+                        .HasColumnType("int")
+                        .HasColumnName("AvailableSeats");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("varchar(max)")
+                        .HasColumnName("Description");
+
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("varchar(100)")
+                        .HasColumnName("Movie_Image");
+
+                    b.Property<string>("MovieName")
+                        .IsRequired()
+                        .HasColumnType("varchar(100)")
+                        .HasColumnName("Movie_Name");
+
+                    b.Property<int>("TotalSeats")
+                        .HasColumnType("int")
+                        .HasColumnName("TotalSeats");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Movies");
+                });
+
             modelBuilder.Entity("Mall_Managment_System.Models.Shops", b =>
                 {
                     b.Property<int>("ID")
@@ -47,6 +243,28 @@ namespace Mall_Managment_System.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("Shops");
+                });
+
+            modelBuilder.Entity("Mall_Managment_System.Models.FoodItem", b =>
+                {
+                    b.HasOne("Mall_Managment_System.Models.Foodcourt", "foodcourt")
+                        .WithMany()
+                        .HasForeignKey("foodcourtID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("foodcourt");
+                });
+
+            modelBuilder.Entity("Mall_Managment_System.Models.Items", b =>
+                {
+                    b.HasOne("Mall_Managment_System.Models.Shops", "Shop")
+                        .WithMany()
+                        .HasForeignKey("ShopId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Shop");
                 });
 #pragma warning restore 612, 618
         }
