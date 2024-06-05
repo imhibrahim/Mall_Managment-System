@@ -33,8 +33,8 @@
                                 <td scope="row">@Html.DisplayFor(modelItem => item.Description)</td>
                                 <td scope="row"><img src="~/images/@Html.DisplayFor(modelItem => item.Image)" style="width:60px;height:60px;" /></td>
                                 <td scope="row">
-               <button class="btn btn-outline-info me-2" data-id="@item.ID" id="editbtn">Edit</button>
-              <button class="btn btn-outline-primary" asp-action="Delete" asp-route-id="@item.ID">Delete</button>
+                                    <a class="btn btn-outline-info me-2" asp-controller="Shop" asp-action="Edit" asp-route-id="@item.ID">Edit</a>
+              <a class="btn btn-outline-primary" asp-controller="Shop" asp-action="Delete" asp-route-id="@item.ID">Delete</a>
                 
 
             </td>

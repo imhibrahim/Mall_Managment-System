@@ -1,5 +1,7 @@
 ﻿using Mall_Managment_System.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Hosting;
+using System;
 
 namespace Mall_Managment_System.Controllers
 {
@@ -50,8 +52,84 @@ namespace Mall_Managment_System.Controllers
             return RedirectToAction("index");
         }
 
+        public IActionResult Edit(int id)
+        {
+            var shop = shop_context.Shops.Find(id);
+            if (shop == null)
+            {
+                return RedirectToAction("Index");
+            }
 
-       
+            var shopViewModel = new ShopViewModel
+            {
+                ID = shop.ID,
+                Name = shop.Name,
+                Description = shop.Description,
+               
+            };
+
+            
+            ViewData["Image"] = shop.Image;
+              
+
+            return View(shopViewModel);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(int id, ShopViewModel shopView)
+        {
+            var shop = shop_context.Shops.Find(id);
+            if (shop == null)
+            {
+                return RedirectToAction("Index");
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return View(shopView);
+            }
+
+            // Update the image file if a new image file is uploaded
+            string newFileName = shop.Image;
+            if (shopView.Photo != null)
+            {
+                newFileName = Guid.NewGuid().ToString() + "_" + shopView.Photo.FileName;
+                string imageFullPath = Path.Combine(env.WebRootPath, "/images/", newFileName);
+
+                //newFileName = DateTime.Now.ToString("yyyyMMddHHmmssff");
+                //newFileName += Path.GetExtension(shopView.Photo.FileName);
+
+                //string imageFullPath = env.WebRootPath + "/images/" + newFileName;
+
+
+                // Save the new image
+                using (var stream = System.IO.File.Create(imageFullPath))
+                {
+                    shopView.Photo.CopyTo(stream);
+                }
+
+                // Delete the old image
+                if (!string.IsNullOrEmpty(shop.Image))
+                {
+                    string oldImageFullPath = Path.Combine(env.WebRootPath, "images", shop.Image);
+                    if (System.IO.File.Exists(oldImageFullPath))
+                    {
+                        System.IO.File.Delete(oldImageFullPath);
+                    }
+                }
+            }
+
+            // Update the shop details
+            shop.Name = shopView.Name;
+            shop.Description = shopView.Description;
+            shop.Image = newFileName;
+
+            shop_context.SaveChanges();
+
+            return RedirectToAction("Index","Shop");
+        }
+
+
 
 
         //public IActionResult getdata(int id)

@@ -42,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZENvdXJ0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/FoodItem/Addfooditem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZEl0ZW1cQWRkZm9vZGl0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/FoodItem/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZEl0ZW1cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -108,6 +112,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Shop/Addproduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxBZGRwcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Shop/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Shop/index.cshtml]

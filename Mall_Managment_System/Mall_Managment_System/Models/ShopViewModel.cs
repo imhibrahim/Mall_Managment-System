@@ -14,9 +14,10 @@ namespace Mall_Managment_System.Models
         [Required]
         public string Description { get; set; }
         [Column("Shop_Image", TypeName = "varchar(100)")]
-        [Required]
-        public IFormFile Photo { get; set; }
+        
+        public IFormFile? Photo { get; set; }
+        
 
-      
+
     }
 }

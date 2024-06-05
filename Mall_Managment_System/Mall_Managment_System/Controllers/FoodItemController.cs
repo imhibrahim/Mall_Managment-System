@@ -1,13 +1,17 @@
-﻿using Mall_Managment_System.Models;
+﻿using Mall_Managment_System.Migrations;
+using Mall_Managment_System.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 
 namespace Mall_Managment_System.Controllers
 {
     public class FoodItemController : Controller
     {
-        ApplicationDbContext FoodItem_context;
-        IWebHostEnvironment env;
+
+        private readonly ApplicationDbContext FoodItem_context;
+        private readonly IWebHostEnvironment env;
+
 
         public FoodItemController(ApplicationDbContext Fooditem, IWebHostEnvironment hc)
         {
@@ -19,31 +23,31 @@ namespace Mall_Managment_System.Controllers
         {
             return View(FoodItem_context.FoodItems.ToList());
         }
-        public IActionResult AddFoodItem()
+        public IActionResult Addfooditem()
         {
-            // Fetch the list of shops from the database
-            var fooditem = FoodItem_context.FoodItems.ToList();
+            // Fetch the list of food courts from the database
+            var foodCourts = FoodItem_context.FoodCourt.ToList();
 
-            // Check if shops is null or empty
-            if (fooditem == null || !fooditem.Any())
+            // Check if food courts is null or empty
+            if (foodCourts == null || !foodCourts.Any())
             {
-                // Handle the case where no shops are found
-                // For example, you might return an error view or an empty SelectList
-                ViewBag.Foodcourtid = new SelectList(Enumerable.Empty<SelectListItem>());
+                // Handle the case where no food courts are found
+                ViewBag.foodcourtid = new SelectList(Enumerable.Empty<SelectListItem>());
             }
             else
             {
                 // Create a SelectList to pass to the view
-                ViewBag.ShopId = new SelectList(fooditem, "ID", "Name");
+                ViewBag.foodcourtid = new SelectList(foodCourts, "ID", "Name");
             }
 
-            // Return the view
-            return View(new FooditemViewModel()); // Ensure the model is instantiated
-            
+            // Return the view with an instantiated model
+            return View(new FooditemViewModel());
         }
 
+
+
         [HttpPost]
-        public IActionResult AddFoodItem(FooditemViewModel fooditem)
+        public IActionResult Addfooditem(FooditemViewModel fooditem)
         {
             string filename = "";
             if (fooditem.Photo != null)
@@ -53,14 +57,16 @@ namespace Mall_Managment_System.Controllers
                 string filepath = Path.Combine(uploadfolder, filename);
                 fooditem.Photo.CopyTo(new FileStream(filepath, FileMode.Create));
             }
-           FoodItem FI = new FoodItem
+            FoodItems FI = new FoodItems
             {
-             FoodCourt_id=fooditem.FoodCourt_id,
-             Name = fooditem.Name,
-             Description=fooditem.Description,
-             Price = fooditem.Price,
-             Image = filename,
-           };
+                FoodCourt_id = fooditem.FoodCourt_id,
+                Name = fooditem.Name,
+                Description = fooditem.Description,
+                Price = fooditem.Price,
+                Image = filename
+
+
+            };
 
             FoodItem_context.FoodItems.Add(FI);
             FoodItem_context.SaveChanges();
@@ -68,8 +74,5 @@ namespace Mall_Managment_System.Controllers
 
             return RedirectToAction("index");
         }
-
-
-
     }
 }
