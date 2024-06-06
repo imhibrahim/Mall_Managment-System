@@ -75,6 +75,7 @@ namespace Mall_Managment_System.Controllers
             return View(shopViewModel);
         }
 
+
         [HttpPost]
         public IActionResult Edit(int id, ShopViewModel shopView)
         {
@@ -91,24 +92,18 @@ namespace Mall_Managment_System.Controllers
 
             // Update the image file if a new image file is uploaded
             string newFileName = shop.Image;
-            if (shopView.Photo != null)
+            if (shopView.Photo != null && shopView.Photo.Length > 0)
             {
-                newFileName = Guid.NewGuid().ToString() + "_" + shopView.Photo.FileName;
-                string imageFullPath = Path.Combine(env.WebRootPath, "/images/", newFileName);
-
-                //newFileName = DateTime.Now.ToString("yyyyMMddHHmmssff");
-                //newFileName += Path.GetExtension(shopView.Photo.FileName);
-
-                //string imageFullPath = env.WebRootPath + "/images/" + newFileName;
-
+                newFileName = Guid.NewGuid().ToString() + Path.GetExtension(shopView.Photo.FileName);
+                string imageFullPath = Path.Combine(env.WebRootPath, "images", newFileName);
 
                 // Save the new image
-                using (var stream = System.IO.File.Create(imageFullPath))
+                using (var stream = new FileStream(imageFullPath, FileMode.Create))
                 {
                     shopView.Photo.CopyTo(stream);
                 }
 
-                // Delete the old image
+                // Delete the old image if it exists
                 if (!string.IsNullOrEmpty(shop.Image))
                 {
                     string oldImageFullPath = Path.Combine(env.WebRootPath, "images", shop.Image);
@@ -126,21 +121,27 @@ namespace Mall_Managment_System.Controllers
 
             shop_context.SaveChanges();
 
-            return RedirectToAction("Index","Shop");
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult Delete(int id)
+        {
+            var shop = shop_context.Shops.Find(id);
+            if (shop == null)
+            {
+                return RedirectToAction("Index");
+            }
+
+            string ImageFullPath = env.WebRootPath + "/products" + shop.Image;
+            System.IO.File.Delete(ImageFullPath);
+
+
+            shop_context.Shops.Remove(shop);
+            shop_context.SaveChanges(true);
+            return RedirectToAction("Index");
         }
 
 
-
-
-        //public IActionResult getdata(int id)
-        //{
-        //    var check = shop_context.Shops.Where(x => x.ID == id).FirstOrDefault();
-        //    if (check == null)
-        //    {
-
-        //    }
-        //    return Json(check);
-        //}
 
 
 

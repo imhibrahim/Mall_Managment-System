@@ -46,5 +46,29 @@ namespace Mall_Managment_System.Controllers
             return RedirectToAction("index");
         }
 
+
+        public IActionResult details(int id) {
+        
+            var data= Contact_context.contact.FirstOrDefault(x=>x.id==id);
+            return View(data);
+        }
+
+
+        public IActionResult Delete(int id)
+        {
+            var contact = Contact_context.contact.Find(id);
+            if (contact == null)
+            {
+                return RedirectToAction("Index");
+            }
+
+
+
+
+            Contact_context.contact.Remove(contact);
+            Contact_context.SaveChanges(true);
+            return RedirectToAction("Index");
+        }
+
     }
 }

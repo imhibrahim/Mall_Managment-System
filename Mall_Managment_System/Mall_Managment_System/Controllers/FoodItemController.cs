@@ -74,5 +74,106 @@ namespace Mall_Managment_System.Controllers
 
             return RedirectToAction("index");
         }
+
+        public IActionResult Edit(int id)
+        {
+            var fooditem = FoodItem_context.FoodItems.Find(id);
+            if (fooditem == null)
+            {
+                return RedirectToAction("Index");
+            }
+
+            var FooditemViewModel = new FooditemViewModel
+            {
+                FoodCourt_id=fooditem.FoodCourt_id,
+                Name = fooditem.Name,
+                Description = fooditem.Description,
+                Price = fooditem.Price,
+
+                
+
+            };
+
+
+            ViewData["Image"] = fooditem.Image;
+
+
+            return View(FooditemViewModel);
+        }
+
+
+        [HttpPost]
+        public IActionResult Edit(int id, FooditemViewModel foodView)
+        {
+            var fooditem = FoodItem_context.FoodItems.Find(id);
+            if (fooditem == null)
+            {
+                return RedirectToAction("Index");
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return View(foodView);
+            }
+
+            // Update the image file if a new image file is uploaded
+            string newFileName = fooditem.Image;
+            if (foodView.Photo != null && foodView.Photo.Length > 0)
+            {
+                newFileName = Guid.NewGuid().ToString() + Path.GetExtension(foodView.Photo.FileName);
+                string imageFullPath = Path.Combine(env.WebRootPath, "images", newFileName);
+
+                // Save the new image
+                using (var stream = new FileStream(imageFullPath, FileMode.Create))
+                {
+                    foodView.Photo.CopyTo(stream);
+                }
+
+                // Delete the old image if it exists
+                if (!string.IsNullOrEmpty(fooditem.Image))
+                {
+                    string oldImageFullPath = Path.Combine(env.WebRootPath, "images", fooditem.Image);
+                    if (System.IO.File.Exists(oldImageFullPath))
+                    {
+                        System.IO.File.Delete(oldImageFullPath);
+                    }
+                }
+            }
+
+            // Update the shop details
+            fooditem.foodcourt = foodView.foodcourt;
+            fooditem.FoodCourt_id=fooditem.FoodCourt_id;
+            fooditem.Name = foodView.Name;
+            fooditem.Description = foodView.Description;
+            fooditem.Price=foodView.Price;
+          fooditem.Image = newFileName;
+
+            FoodItem_context.SaveChanges();
+
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult Delete(int id)
+        {
+            var fooditem = FoodItem_context.FoodItems.Find(id);
+            if (fooditem == null)
+            {
+                return RedirectToAction("Index");
+            }
+
+            string ImageFullPath = env.WebRootPath + "/products" + fooditem.Image;
+            System.IO.File.Delete(ImageFullPath);
+
+
+            FoodItem_context.FoodItems.Remove(fooditem);
+            FoodItem_context.SaveChanges(true);
+            return RedirectToAction("Index");
+        }
+
+
+
+
+
+
     }
 }

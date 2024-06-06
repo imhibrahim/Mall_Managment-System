@@ -12,7 +12,7 @@ namespace Mall_Managment_System.Models
         [Column("Name", TypeName = "varchar(100)")]
         public string Name { get; set; }
         [Column("Image", TypeName = "varchar(100)")]
-        [Required]
+  
         public IFormFile Photo { get; set; }
     }
 }

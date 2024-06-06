@@ -457,6 +457,10 @@
       "PackagePath": "staticwebassets\\images\\06fb00c4-df10-45d7-a88c-d78ee9da1c10_WhatsApp Image 2024-05-16 at 23.57.49_357048e6.jpg"
     },
     {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\0869cb47-a0f0-4dc7-9c2c-be37fe3e77c5.webp",
+      "PackagePath": "staticwebassets\\images\\0869cb47-a0f0-4dc7-9c2c-be37fe3e77c5.webp"
+    },
+    {
       "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\09966e92-2a42-49e2-904c-6c9670a87f56_Image20240524101632.png",
       "PackagePath": "staticwebassets\\images\\09966e92-2a42-49e2-904c-6c9670a87f56_Image20240524101632.png"
     },
@@ -467,6 +471,10 @@
     {
       "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\0e857385-7522-4935-aadf-8a293a6bded5_test.png",
       "PackagePath": "staticwebassets\\images\\0e857385-7522-4935-aadf-8a293a6bded5_test.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\2200aee6-4184-447e-bf4d-8a8411e524f4.jpg",
+      "PackagePath": "staticwebassets\\images\\2200aee6-4184-447e-bf4d-8a8411e524f4.jpg"
     },
     {
       "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\26d4fd85-5c3b-4f71-b1d0-adb8f840df97_Image20240524101632.png",
@@ -481,20 +489,16 @@
       "PackagePath": "staticwebassets\\images\\4b37fad2-d5b8-4c6a-ab00-5fb387fe16f7_WhatsApp Image 2024-05-17 at 00.33.06_5c637850.jpg"
     },
     {
-      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\5af9a61b-ee7a-46db-99ad-19e2f22b5b76_about002_770x.webp",
-      "PackagePath": "staticwebassets\\images\\5af9a61b-ee7a-46db-99ad-19e2f22b5b76_about002_770x.webp"
-    },
-    {
       "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\6167911a-5b28-4e77-9c1b-c8390755db0e_Image20240524101642.png",
       "PackagePath": "staticwebassets\\images\\6167911a-5b28-4e77-9c1b-c8390755db0e_Image20240524101642.png"
     },
     {
-      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\72ed4aef-be70-439c-bb8a-390c6a1817db_blog-img-5-650x650.jpg",
-      "PackagePath": "staticwebassets\\images\\72ed4aef-be70-439c-bb8a-390c6a1817db_blog-img-5-650x650.jpg"
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\6c25b6ab-2ec5-4883-bb5e-193f26062eec.webp",
+      "PackagePath": "staticwebassets\\images\\6c25b6ab-2ec5-4883-bb5e-193f26062eec.webp"
     },
     {
-      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\74098a69-1e46-4041-9c13-7a8ddbb3bd5f_Image20240524101632.png",
-      "PackagePath": "staticwebassets\\images\\74098a69-1e46-4041-9c13-7a8ddbb3bd5f_Image20240524101632.png"
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\72ed4aef-be70-439c-bb8a-390c6a1817db_blog-img-5-650x650.jpg",
+      "PackagePath": "staticwebassets\\images\\72ed4aef-be70-439c-bb8a-390c6a1817db_blog-img-5-650x650.jpg"
     },
     {
       "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\8700c820-8d99-49b8-a683-aa7c44afa102_Image20240524101632.png",
@@ -505,6 +509,10 @@
       "PackagePath": "staticwebassets\\images\\9df69492-38a0-47ce-9a0b-4f03e20fb51d_Image20240524101642.png"
     },
     {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\a5527244-d156-46bc-8aa0-df8c6e0f5c34_about 1.webp",
+      "PackagePath": "staticwebassets\\images\\a5527244-d156-46bc-8aa0-df8c6e0f5c34_about 1.webp"
+    },
+    {
       "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\a8ef9b98-0d93-4fda-a2b0-a0c4e60a2e74_WhatsApp Image 2024-05-17 at 00.56.36_1e97e3e0.jpg",
       "PackagePath": "staticwebassets\\images\\a8ef9b98-0d93-4fda-a2b0-a0c4e60a2e74_WhatsApp Image 2024-05-17 at 00.56.36_1e97e3e0.jpg"
     },
@@ -513,12 +521,24 @@
       "PackagePath": "staticwebassets\\images\\ac61a20c-070b-4d47-89ac-dbbf42ad4a82_Image20240524101632.png"
     },
     {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\be03af32-3256-4497-831b-a3d5fa41f4c9.webp",
+      "PackagePath": "staticwebassets\\images\\be03af32-3256-4497-831b-a3d5fa41f4c9.webp"
+    },
+    {
       "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\c2057171-b77f-4e24-872d-d8964e7ab9e5_vaccine databese.png",
       "PackagePath": "staticwebassets\\images\\c2057171-b77f-4e24-872d-d8964e7ab9e5_vaccine databese.png"
     },
     {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\c3bf5197-50be-49cb-8f25-c5750e1f87d5.webp",
+      "PackagePath": "staticwebassets\\images\\c3bf5197-50be-49cb-8f25-c5750e1f87d5.webp"
+    },
+    {
       "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\c60858e5-6bf4-4102-bed9-cf60e71358ad_Image20240524101632.png",
       "PackagePath": "staticwebassets\\images\\c60858e5-6bf4-4102-bed9-cf60e71358ad_Image20240524101632.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\cab8390b-3fb6-479f-99aa-edc3a3002e3e_about 1.webp",
+      "PackagePath": "staticwebassets\\images\\cab8390b-3fb6-479f-99aa-edc3a3002e3e_about 1.webp"
     },
     {
       "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\d028ef53-7c5e-4e03-a059-d428fdfe5272_Image20240524101632.png",
@@ -529,12 +549,24 @@
       "PackagePath": "staticwebassets\\images\\d11f0001-0d85-4f24-8f1c-51d681f0c1ea_Image20240524101632.png"
     },
     {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\d3428e60-54b5-4a7d-ab0a-9083a633cf94.webp",
+      "PackagePath": "staticwebassets\\images\\d3428e60-54b5-4a7d-ab0a-9083a633cf94.webp"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\d912c2c3-26e0-4975-9bac-f22124a097cb.webp",
+      "PackagePath": "staticwebassets\\images\\d912c2c3-26e0-4975-9bac-f22124a097cb.webp"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\dbb1d75c-6d1f-48de-8b5e-0ae45e422c4a.webp",
+      "PackagePath": "staticwebassets\\images\\dbb1d75c-6d1f-48de-8b5e-0ae45e422c4a.webp"
+    },
+    {
       "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\e0b46e37-31e6-483b-8c62-aadebf3faad3_Image20240524101632.png",
       "PackagePath": "staticwebassets\\images\\e0b46e37-31e6-483b-8c62-aadebf3faad3_Image20240524101632.png"
     },
     {
-      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\f796c235-3d87-4376-8e99-e5c0046159f1_blog-img-5-650x650.jpg",
-      "PackagePath": "staticwebassets\\images\\f796c235-3d87-4376-8e99-e5c0046159f1_blog-img-5-650x650.jpg"
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\e8d2a490-afe7-42f4-93a1-03e9f30f2b32.webp",
+      "PackagePath": "staticwebassets\\images\\e8d2a490-afe7-42f4-93a1-03e9f30f2b32.webp"
     },
     {
       "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\fcffa4ad-9e69-418c-a9c2-f1cd7a40457f_about 1.webp",
@@ -771,6 +803,1062 @@
     {
       "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\css\\main.css",
+      "PackagePath": "staticwebassets\\web\\css\\main.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\css\\util.css",
+      "PackagePath": "staticwebassets\\web\\css\\util.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Montserrat\\Montserrat-Black.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Montserrat\\Montserrat-Black.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Montserrat\\Montserrat-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Montserrat\\Montserrat-BlackItalic.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Montserrat\\Montserrat-Bold.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Montserrat\\Montserrat-Bold.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Montserrat\\Montserrat-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Montserrat\\Montserrat-BoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Montserrat\\Montserrat-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Montserrat\\Montserrat-ExtraBold.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Montserrat\\Montserrat-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Montserrat\\Montserrat-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Montserrat\\Montserrat-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Montserrat\\Montserrat-ExtraLight.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Montserrat\\Montserrat-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Montserrat\\Montserrat-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Montserrat\\Montserrat-Italic.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Montserrat\\Montserrat-Italic.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Montserrat\\Montserrat-Light.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Montserrat\\Montserrat-Light.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Montserrat\\Montserrat-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Montserrat\\Montserrat-LightItalic.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Montserrat\\Montserrat-Medium.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Montserrat\\Montserrat-Medium.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Montserrat\\Montserrat-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Montserrat\\Montserrat-MediumItalic.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Montserrat\\Montserrat-Regular.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Montserrat\\Montserrat-Regular.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Montserrat\\Montserrat-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Montserrat\\Montserrat-SemiBold.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Montserrat\\Montserrat-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Montserrat\\Montserrat-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Montserrat\\Montserrat-Thin.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Montserrat\\Montserrat-Thin.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Montserrat\\Montserrat-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Montserrat\\Montserrat-ThinItalic.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Montserrat\\OFL.txt",
+      "PackagePath": "staticwebassets\\web\\fonts\\Montserrat\\OFL.txt"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\PlayfairDisplay\\OFL.txt",
+      "PackagePath": "staticwebassets\\web\\fonts\\PlayfairDisplay\\OFL.txt"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\PlayfairDisplay\\PlayfairDisplay-Black.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\PlayfairDisplay\\PlayfairDisplay-Black.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\PlayfairDisplay\\PlayfairDisplay-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\PlayfairDisplay\\PlayfairDisplay-BlackItalic.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\PlayfairDisplay\\PlayfairDisplay-Bold.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\PlayfairDisplay\\PlayfairDisplay-Bold.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\PlayfairDisplay\\PlayfairDisplay-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\PlayfairDisplay\\PlayfairDisplay-BoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\PlayfairDisplay\\PlayfairDisplay-Italic.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\PlayfairDisplay\\PlayfairDisplay-Italic.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\PlayfairDisplay\\PlayfairDisplay-Regular.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\PlayfairDisplay\\PlayfairDisplay-Regular.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Poppins\\Poppins-Black.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Poppins\\Poppins-Black.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Poppins\\Poppins-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Poppins\\Poppins-BlackItalic.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Poppins\\Poppins-Bold.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Poppins\\Poppins-Bold.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Poppins\\Poppins-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Poppins\\Poppins-BoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Poppins\\Poppins-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Poppins\\Poppins-ExtraBold.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Poppins\\Poppins-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Poppins\\Poppins-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Poppins\\Poppins-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Poppins\\Poppins-ExtraLight.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Poppins\\Poppins-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Poppins\\Poppins-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Poppins\\Poppins-Italic.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Poppins\\Poppins-Italic.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Poppins\\Poppins-Light.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Poppins\\Poppins-Light.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Poppins\\Poppins-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Poppins\\Poppins-LightItalic.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Poppins\\Poppins-Medium.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Poppins\\Poppins-Medium.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Poppins\\Poppins-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Poppins\\Poppins-MediumItalic.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Poppins\\Poppins-Regular.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Poppins\\Poppins-Regular.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Poppins\\Poppins-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Poppins\\Poppins-SemiBold.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Poppins\\Poppins-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Poppins\\Poppins-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Poppins\\Poppins-Thin.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Poppins\\Poppins-Thin.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\Poppins\\Poppins-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\Poppins\\Poppins-ThinItalic.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\less\\animated.less",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\less\\animated.less"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\less\\core.less",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\less\\core.less"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\less\\icons.less",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\less\\icons.less"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\less\\larger.less",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\less\\larger.less"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\less\\list.less",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\less\\list.less"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\less\\mixins.less"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\less\\path.less",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\less\\path.less"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\less\\stacked.less"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\less\\variables.less",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\less\\variables.less"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\scss\\_core.scss"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\scss\\_list.scss"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\scss\\_path.scss"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\web\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\iconic\\css\\material-design-iconic-font.css",
+      "PackagePath": "staticwebassets\\web\\fonts\\iconic\\css\\material-design-iconic-font.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\iconic\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\web\\fonts\\iconic\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\web\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\web\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\web\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\web\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.eot",
+      "PackagePath": "staticwebassets\\web\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.eot"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.svg",
+      "PackagePath": "staticwebassets\\web\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.svg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.woff",
+      "PackagePath": "staticwebassets\\web\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.woff"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.woff2",
+      "PackagePath": "staticwebassets\\web\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.woff2"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\fonts\\linearicons-v1.0.0\\icon-font.min.css",
+      "PackagePath": "staticwebassets\\web\\fonts\\linearicons-v1.0.0\\icon-font.min.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\Bestactoraward.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\Bestactoraward.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\Food-1.jpeg",
+      "PackagePath": "staticwebassets\\web\\images\\Food-1.jpeg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\Food-2.jpeg",
+      "PackagePath": "staticwebassets\\web\\images\\Food-2.jpeg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\Food-3.jpeg",
+      "PackagePath": "staticwebassets\\web\\images\\Food-3.jpeg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\Food-4.jpeg",
+      "PackagePath": "staticwebassets\\web\\images\\Food-4.jpeg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\LoveStories.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\LoveStories.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\Money-Heist.png",
+      "PackagePath": "staticwebassets\\web\\images\\Money-Heist.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\Parking.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\Parking.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\Shop-2.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\Shop-2.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\Shop-3.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\Shop-3.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\Squidgame.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\Squidgame.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\about-01.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\about-01.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\about-02.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\about-02.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\abtfood.png",
+      "PackagePath": "staticwebassets\\web\\images\\abtfood.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\allstars.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\allstars.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\bg-01.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\bg-01.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\bg-02.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\bg-02.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\blog-01.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\blog-01.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\blog-02.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\blog-02.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\blog-03.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\blog-03.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\blog-04.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\blog-04.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\blog-05.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\blog-05.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\blog-06.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\blog-06.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\brand1.png",
+      "PackagePath": "staticwebassets\\web\\images\\brand1.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\brand2.png",
+      "PackagePath": "staticwebassets\\web\\images\\brand2.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\brand3.png",
+      "PackagePath": "staticwebassets\\web\\images\\brand3.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\brand4.png",
+      "PackagePath": "staticwebassets\\web\\images\\brand4.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\brand5.png",
+      "PackagePath": "staticwebassets\\web\\images\\brand5.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\brand6.png",
+      "PackagePath": "staticwebassets\\web\\images\\brand6.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\cinema.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\cinema.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\cover.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\cover.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\filmacademy.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\filmacademy.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\food.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\food.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\foodcourt.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\foodcourt.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\gallery-01.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\gallery-01.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\gallery-02.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\gallery-02.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\gallery-03.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\gallery-03.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\gallery-04.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\gallery-04.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\gallery-05.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\gallery-05.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\gallery-06.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\gallery-06.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\gallery-07.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\gallery-07.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\gallery-08.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\gallery-08.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\gallery-09.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\gallery-09.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\icons\\favicon.png",
+      "PackagePath": "staticwebassets\\web\\images\\icons\\favicon.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\icons\\icon-close.png",
+      "PackagePath": "staticwebassets\\web\\images\\icons\\icon-close.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\icons\\icon-close2.png",
+      "PackagePath": "staticwebassets\\web\\images\\icons\\icon-close2.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\icons\\icon-email.png",
+      "PackagePath": "staticwebassets\\web\\images\\icons\\icon-email.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\icons\\icon-heart-01.png",
+      "PackagePath": "staticwebassets\\web\\images\\icons\\icon-heart-01.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\icons\\icon-heart-02.png",
+      "PackagePath": "staticwebassets\\web\\images\\icons\\icon-heart-02.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\icons\\icon-next.png",
+      "PackagePath": "staticwebassets\\web\\images\\icons\\icon-next.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\icons\\icon-pay-01.png",
+      "PackagePath": "staticwebassets\\web\\images\\icons\\icon-pay-01.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\icons\\icon-pay-02.png",
+      "PackagePath": "staticwebassets\\web\\images\\icons\\icon-pay-02.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\icons\\icon-pay-03.png",
+      "PackagePath": "staticwebassets\\web\\images\\icons\\icon-pay-03.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\icons\\icon-pay-04.png",
+      "PackagePath": "staticwebassets\\web\\images\\icons\\icon-pay-04.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\icons\\icon-pay-05.png",
+      "PackagePath": "staticwebassets\\web\\images\\icons\\icon-pay-05.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\icons\\icon-prev.png",
+      "PackagePath": "staticwebassets\\web\\images\\icons\\icon-prev.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\icons\\logo-01.png",
+      "PackagePath": "staticwebassets\\web\\images\\icons\\logo-01.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\icons\\logo-02.png",
+      "PackagePath": "staticwebassets\\web\\images\\icons\\logo-02.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\icons\\pin.png",
+      "PackagePath": "staticwebassets\\web\\images\\icons\\pin.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\item-cart-01.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\item-cart-01.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\item-cart-02.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\item-cart-02.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\item-cart-03.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\item-cart-03.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\item-cart-04.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\item-cart-04.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\item-cart-05.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\item-cart-05.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\login.png",
+      "PackagePath": "staticwebassets\\web\\images\\login.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\loginpage.png",
+      "PackagePath": "staticwebassets\\web\\images\\loginpage.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\mall.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\mall.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\mirzapur.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\mirzapur.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\moviebanner.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\moviebanner.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\pexels-edwardeyer-687824.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\pexels-edwardeyer-687824.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\popcorn.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\popcorn.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\resturant.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\resturant.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\shop-1.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\shop-1.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\shop.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\shop.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\shoppingbanner.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\shoppingbanner.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\summer.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\summer.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\thumb-01.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\thumb-01.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\thumb-02.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\thumb-02.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\thumb-03.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\thumb-03.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\wedding.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\wedding.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\wildwest.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\wildwest.jpg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\js\\main.js",
+      "PackagePath": "staticwebassets\\web\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\js\\map-custom.js",
+      "PackagePath": "staticwebassets\\web\\js\\map-custom.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\js\\slick-custom.js",
+      "PackagePath": "staticwebassets\\web\\js\\slick-custom.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\MagnificPopup\\jquery.magnific-popup.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\MagnificPopup\\jquery.magnific-popup.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\MagnificPopup\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\MagnificPopup\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\MagnificPopup\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\web\\vendor\\MagnificPopup\\magnific-popup.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\web\\vendor\\animate\\animate.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\animsition\\css\\animsition.css",
+      "PackagePath": "staticwebassets\\web\\vendor\\animsition\\css\\animsition.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\animsition\\css\\animsition.min.css",
+      "PackagePath": "staticwebassets\\web\\vendor\\animsition\\css\\animsition.min.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\animsition\\js\\animsition.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\animsition\\js\\animsition.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\animsition\\js\\animsition.min.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\animsition\\js\\animsition.min.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\web\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\web\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\web\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\web\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\web\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\web\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\web\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\web\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\web\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\web\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\web\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\web\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\bootstrap\\js\\popper.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\bootstrap\\js\\popper.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\bootstrap\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\bootstrap\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\bootstrap\\js\\tooltip.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\bootstrap\\js\\tooltip.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\countdowntime\\countdowntime.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\countdowntime\\countdowntime.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\css-hamburgers\\hamburgers.css",
+      "PackagePath": "staticwebassets\\web\\vendor\\css-hamburgers\\hamburgers.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\css-hamburgers\\hamburgers.min.css",
+      "PackagePath": "staticwebassets\\web\\vendor\\css-hamburgers\\hamburgers.min.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\daterangepicker\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\web\\vendor\\daterangepicker\\daterangepicker.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\daterangepicker\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\daterangepicker\\daterangepicker.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\daterangepicker\\moment.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\daterangepicker\\moment.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\daterangepicker\\moment.min.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\daterangepicker\\moment.min.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\isotope\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\isotope\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\jquery\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\jquery\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\jqueryui\\external\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\jqueryui\\external\\jquery\\jquery.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\jqueryui\\images\\ui-icons_444444_256x240.png",
+      "PackagePath": "staticwebassets\\web\\vendor\\jqueryui\\images\\ui-icons_444444_256x240.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\jqueryui\\images\\ui-icons_555555_256x240.png",
+      "PackagePath": "staticwebassets\\web\\vendor\\jqueryui\\images\\ui-icons_555555_256x240.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\jqueryui\\images\\ui-icons_777620_256x240.png",
+      "PackagePath": "staticwebassets\\web\\vendor\\jqueryui\\images\\ui-icons_777620_256x240.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\jqueryui\\images\\ui-icons_777777_256x240.png",
+      "PackagePath": "staticwebassets\\web\\vendor\\jqueryui\\images\\ui-icons_777777_256x240.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\jqueryui\\images\\ui-icons_cc0000_256x240.png",
+      "PackagePath": "staticwebassets\\web\\vendor\\jqueryui\\images\\ui-icons_cc0000_256x240.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\jqueryui\\images\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\web\\vendor\\jqueryui\\images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\jqueryui\\index.html",
+      "PackagePath": "staticwebassets\\web\\vendor\\jqueryui\\index.html"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\jqueryui\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\web\\vendor\\jqueryui\\jquery-ui.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\jqueryui\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\jqueryui\\jquery-ui.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\jqueryui\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\web\\vendor\\jqueryui\\jquery-ui.min.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\jqueryui\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\jqueryui\\jquery-ui.min.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\jqueryui\\jquery-ui.structure.css",
+      "PackagePath": "staticwebassets\\web\\vendor\\jqueryui\\jquery-ui.structure.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\jqueryui\\jquery-ui.structure.min.css",
+      "PackagePath": "staticwebassets\\web\\vendor\\jqueryui\\jquery-ui.structure.min.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\jqueryui\\jquery-ui.theme.css",
+      "PackagePath": "staticwebassets\\web\\vendor\\jqueryui\\jquery-ui.theme.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\jqueryui\\jquery-ui.theme.min.css",
+      "PackagePath": "staticwebassets\\web\\vendor\\jqueryui\\jquery-ui.theme.min.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\lightbox2\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\web\\vendor\\lightbox2\\css\\lightbox.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\lightbox2\\css\\lightbox.min.css",
+      "PackagePath": "staticwebassets\\web\\vendor\\lightbox2\\css\\lightbox.min.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\lightbox2\\images\\close.png",
+      "PackagePath": "staticwebassets\\web\\vendor\\lightbox2\\images\\close.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\lightbox2\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\web\\vendor\\lightbox2\\images\\loading.gif"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\lightbox2\\images\\next.png",
+      "PackagePath": "staticwebassets\\web\\vendor\\lightbox2\\images\\next.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\lightbox2\\images\\prev.png",
+      "PackagePath": "staticwebassets\\web\\vendor\\lightbox2\\images\\prev.png"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\lightbox2\\js\\lightbox-plus-jquery.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\lightbox2\\js\\lightbox-plus-jquery.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\lightbox2\\js\\lightbox-plus-jquery.min.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\lightbox2\\js\\lightbox-plus-jquery.min.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\lightbox2\\js\\lightbox-plus-jquery.min.map",
+      "PackagePath": "staticwebassets\\web\\vendor\\lightbox2\\js\\lightbox-plus-jquery.min.map"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\lightbox2\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\lightbox2\\js\\lightbox.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\lightbox2\\js\\lightbox.min.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\lightbox2\\js\\lightbox.min.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\lightbox2\\js\\lightbox.min.map",
+      "PackagePath": "staticwebassets\\web\\vendor\\lightbox2\\js\\lightbox.min.map"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\parallax100\\parallax100.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\parallax100\\parallax100.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\web\\vendor\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\perfect-scrollbar\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\perfect-scrollbar\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\select2\\select2.css",
+      "PackagePath": "staticwebassets\\web\\vendor\\select2\\select2.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\select2\\select2.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\select2\\select2.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\web\\vendor\\select2\\select2.min.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\select2\\select2.min.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\slick\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\web\\vendor\\slick\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\slick\\config.rb",
+      "PackagePath": "staticwebassets\\web\\vendor\\slick\\config.rb"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\slick\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\web\\vendor\\slick\\fonts\\slick.eot"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\slick\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\web\\vendor\\slick\\fonts\\slick.svg"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\slick\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\web\\vendor\\slick\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\slick\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\web\\vendor\\slick\\fonts\\slick.woff"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\slick\\slick-theme.css",
+      "PackagePath": "staticwebassets\\web\\vendor\\slick\\slick-theme.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\slick\\slick-theme.less",
+      "PackagePath": "staticwebassets\\web\\vendor\\slick\\slick-theme.less"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\slick\\slick-theme.scss",
+      "PackagePath": "staticwebassets\\web\\vendor\\slick\\slick-theme.scss"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\slick\\slick.css",
+      "PackagePath": "staticwebassets\\web\\vendor\\slick\\slick.css"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\slick\\slick.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\slick\\slick.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\slick\\slick.less",
+      "PackagePath": "staticwebassets\\web\\vendor\\slick\\slick.less"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\slick\\slick.min.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\slick\\slick.min.js"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\slick\\slick.scss",
+      "PackagePath": "staticwebassets\\web\\vendor\\slick\\slick.scss"
+    },
+    {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\vendor\\sweetalert\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\web\\vendor\\sweetalert\\sweetalert.min.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Mall_Managment_System.Microsoft.AspNetCore.StaticWebAssets.props",

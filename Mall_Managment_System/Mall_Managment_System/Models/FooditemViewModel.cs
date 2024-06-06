@@ -27,7 +27,7 @@ namespace Mall_Managment_System.Models
         public int Price { get; set; }
 
         [Column("Food_Image", TypeName = "varchar(100)")]
-        [Required]
+     
         public IFormFile Photo { get; set; }
     }
 }

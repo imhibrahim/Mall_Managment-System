@@ -18,35 +18,8 @@ namespace Mall_Managment_System.Controllers
             return View();
         }
        
-        public IActionResult Booking()
-        {
-            return View();
-        }
-
-        public IActionResult Gallary()
-        {
-            return View();
-        }
-        public IActionResult Food_Court()
-        {
-            return View();
-        }
-        public IActionResult Food_Item()
-        {
-            return View();
-        }
-        public IActionResult Contact()
-        {
-            return View();
-        }
-        public IActionResult Feedback()
-        {
-            return View();
-        }
-        public IActionResult Users()
-        {
-            return View();
-        }
+      
+      
         public IActionResult Item()
         {
             return View();

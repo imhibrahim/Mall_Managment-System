@@ -15,7 +15,7 @@ namespace Mall_Managment_System.Models
         [Required]
         public string Description { get; set; }
         [Column("Shop_Image", TypeName = "varchar(100)")]
-        
+        [Required]
         public string Image { get; set; }
         
     }

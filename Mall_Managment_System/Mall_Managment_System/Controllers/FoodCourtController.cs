@@ -46,5 +46,99 @@ namespace Mall_Managment_System.Controllers
 
             return RedirectToAction("index");
         }
+
+
+        public IActionResult Edit(int id)
+        {
+            var foodcourt = foodCourt_context.FoodCourt.Find(id);
+            if (foodcourt == null)
+            {
+                return RedirectToAction("Index");
+            }
+
+            var FoodCourtViewModel = new FoodCourtViewModel
+            {
+                ID=foodcourt.ID,
+                Name=foodcourt.Name,
+                Description=foodcourt.Description,
+             
+
+            };
+
+
+            ViewData["Image"] = foodcourt.Image;
+
+
+            return View(FoodCourtViewModel);
+        }
+
+
+        [HttpPost]
+        public IActionResult Edit(int id, FoodCourtViewModel courtView)
+        {
+            var court = foodCourt_context.FoodCourt.Find(id);
+            if (court == null)
+            {
+                return RedirectToAction("Index");
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return View(courtView);
+            }
+
+            // Update the image file if a new image file is uploaded
+            string newFileName = court.Image;
+            if (courtView.Photo != null && courtView.Photo.Length > 0)
+            {
+                newFileName = Guid.NewGuid().ToString() + Path.GetExtension(courtView.Photo.FileName);
+                string imageFullPath = Path.Combine(env.WebRootPath, "images", newFileName);
+
+                // Save the new image
+                using (var stream = new FileStream(imageFullPath, FileMode.Create))
+                {
+                    courtView.Photo.CopyTo(stream);
+                }
+
+                // Delete the old image if it exists
+                if (!string.IsNullOrEmpty(court.Image))
+                {
+                    string oldImageFullPath = Path.Combine(env.WebRootPath, "images",  court.Image);
+                    if (System.IO.File.Exists(oldImageFullPath))
+                    {
+                        System.IO.File.Delete(oldImageFullPath);
+                    }
+                }
+            }
+
+            // Update the shop details
+            court.Name = courtView.Name;
+            court.Description = courtView.Description;
+            court.Image = newFileName;
+
+            foodCourt_context.SaveChanges();
+
+            return RedirectToAction("Index");
+        }
+
+
+
+
+        public IActionResult Delete(int id)
+        {
+            var foodcourt = foodCourt_context.FoodCourt.Find(id);
+            if (foodcourt == null)
+            {
+                return RedirectToAction("Index");
+            }
+
+            string ImageFullPath = env.WebRootPath + "/products" + foodcourt.Image;
+            System.IO.File.Delete(ImageFullPath);
+
+
+            foodCourt_context.FoodCourt.Remove(foodcourt);
+            foodCourt_context.SaveChanges(true);
+            return RedirectToAction("Index");
+        }
     }
 }

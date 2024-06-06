@@ -51,7 +51,8 @@
                 @Html.DisplayFor(modelItem => item.Massage)
             </td>
                                 <td scope="row">
-                                    <a class="btn btn-outline-info me-2" asp-action="Edit" asp-route-id="@item.id">Edit</a>
+                                   
+                                    <a class="btn btn-outline-info" asp-action="details" asp-route-id="@item.id">Details</a>
                                     <a class="btn btn-outline-primary" asp-action="Delete" asp-route-id="@item.id">Delete</a>
             </td>
         </tr>
