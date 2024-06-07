@@ -45,19 +45,20 @@
 
 					<!-- Logo desktop -->
 
-					<h1 class="ltext-202 cl2 respon2">Shopping Mall</h1>
+				@* 	<h1 class="ltext-202 cl2 respon2">Shopping Mall</h1> *@
+					<img class="ltext-202 cl2 respon2" style="width:200px;" src="~/web/images/mall logo.webp" />
 
 
 					<!-- Menu desktop -->
 					<div class="menu-desktop ml-5">
 						<ul class="main-menu">
 							<li class="active-menu">
-								<a href="index.html">Home</a>
+								<aasp-controller ="Website" asp-action="index">Home</a>
 
 							</li>
 
 							<li>
-								<a href="about.html">About</a>
+								<a asp-controller="Website" asp-action="About">About</a>
 							</li>
 
 							<li>
@@ -71,7 +72,7 @@
 							</li>
 
 							<li>
-								<a href="blog.html">Blogs</a>
+								<a asp-controller="Website" asp-action="Blog">Blogs</a>
 							</li>
 
 							<li>
@@ -81,7 +82,7 @@
 
 
 							<li>
-								<a href="contact.html">Contact</a>
+								<a asp-action="Contact" asp-controller="Website">Contact</a>
 							</li>
 						</ul>
 					</div>
@@ -103,7 +104,8 @@
 		<div class="wrap-header-mobile">
 			<!-- Logo moblie -->
 			<div class="logo-mobile">
-				<h1 class="ltext-202 cl2 respon2">Shopping Mall</h1>
+		@* 		<h1 class="ltext-202 cl2 respon2">Shopping Mall</h1> *@
+				<img class="ltext-202 cl2 respon2" src="~/web/images/mall logo.webp" />
 
 			</div>
 
@@ -132,7 +134,7 @@
 		<div class="menu-mobile">
 			<ul class="main-menu-m">
 				<li>
-					<a href="index.html">Home</a>
+					<a asp-controller="Website" asp-action="index">Home</a>
 
 					<span class="arrow-main-menu-m">
 						<i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -140,7 +142,7 @@
 				</li>
 
 				<li>
-					<a href="about.html">About</a>
+					<a asp-controller="Website" asp-action="About">About</a>
 				</li>
 
 
@@ -154,14 +156,19 @@
 					</ul>
 				</li>
 
+					<li>
+								<a asp-controller="Website" asp-action="Blog">Blogs</a>
+							</li>
+
 				<li>
 					<a href="Gallery.html">Gallery</a>
 				</li>
 
 
 
+
 				<li>
-					<a href="contact.html">Contact</a>
+					<a asp-action="Contact" asp-controller="Website">Contact</a>
 				</li>
 			</ul>
 		</div>
@@ -420,6 +427,8 @@
 			})
 		});
 	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes"></script>
+	<script src="~/web/js/map-custom.js"></script>
 	<!--===============================================================================================-->
 	<script src="~/web/js/main.js"></script>
 </body>

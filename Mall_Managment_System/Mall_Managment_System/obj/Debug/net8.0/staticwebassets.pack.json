@@ -1453,6 +1453,10 @@
       "PackagePath": "staticwebassets\\web\\images\\loginpage.png"
     },
     {
+      "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\mall logo.webp",
+      "PackagePath": "staticwebassets\\web\\images\\mall logo.webp"
+    },
+    {
       "Id": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\web\\images\\mall.jpg",
       "PackagePath": "staticwebassets\\web\\images\\mall.jpg"
     },
