@@ -29,7 +29,7 @@ namespace Mall_Managment_System.Controllers
         public IActionResult AddContact(Contact contact)
         {
         
-            Contact C = new Contact
+            Contact Contact = new Contact
             {
                 Name= contact.Name,
                 Email= contact.Email,
@@ -39,11 +39,12 @@ namespace Mall_Managment_System.Controllers
                
             };
 
-            Contact_context.contact.Add(C);
+            Contact_context.contact.Add(Contact);
             Contact_context.SaveChanges();
             ViewBag.success = "Recoard inserted";
 
             return RedirectToAction("index");
+
         }
 
 

@@ -53,7 +53,7 @@ namespace Mall_Managment_System.Migrations
                     b.ToTable("contact");
                 });
 
-            modelBuilder.Entity("Mall_Managment_System.Models.FoodItem", b =>
+            modelBuilder.Entity("Mall_Managment_System.Models.FoodItems", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -245,7 +245,57 @@ namespace Mall_Managment_System.Migrations
                     b.ToTable("Shops");
                 });
 
-            modelBuilder.Entity("Mall_Managment_System.Models.FoodItem", b =>
+            modelBuilder.Entity("Mall_Managment_System.Models.Users", b =>
+                {
+                    b.Property<int>("Userid")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Userid"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("LasttName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.Property<string>("Rolls")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserActive")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserLogin")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Userid");
+
+                    b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("Mall_Managment_System.Models.FoodItems", b =>
                 {
                     b.HasOne("Mall_Managment_System.Models.Foodcourt", "foodcourt")
                         .WithMany()

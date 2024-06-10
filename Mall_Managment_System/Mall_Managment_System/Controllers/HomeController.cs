@@ -1,19 +1,25 @@
+using Mall_Managment_System.Migrations.ContactDb;
 using Mall_Managment_System.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace Mall_Managment_System.Controllers
 {
-    public class HomeController : Controller
+	//[Authorize(Roles = "1")]
+	public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+	
+		private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
         }
 
-        public IActionResult Index()
+
+ 
+		public IActionResult Index()
         {
             return View();
         }

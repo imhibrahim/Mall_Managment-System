@@ -1,0 +1,120 @@
+﻿@model Mall_Managment_System.Models.Users
+
+@{
+    Layout = "/Views/Shared/layouts.cshtml";
+}
+
+
+
+
+
+	<!-- Title page -->
+	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('/web/images/mall.jpg');">
+		<h2 class="ltext-105 cl0 txt-center">
+			Register Now
+		</h2>
+	</section>
+
+
+	<!-- Content page -->
+	<section class="bg0 p-t-104 p-b-116">
+		<div class="container">
+			<div class="flex-w flex-tr">
+				<div class="size-210 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md">
+					<form asp-action="Register">
+						<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+						<h4 class="mtext-105 cl2 txt-center p-b-30">
+							Sign Up
+						</h4>
+
+						<div class="bor8 m-b-20 how-pos4-parent">
+							<input asp-for="FirstName" class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="text"  placeholder="Your First Name">
+							<span asp-validation-for="FirstName" class="text-danger"></span>
+						</div>
+						<div class="bor8 m-b-20 how-pos4-parent">
+							<input asp-for="LasttName" class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="text" placeholder="Your Last Name">
+							<span asp-validation-for="LasttName" class="text-danger"></span>
+						</div>
+
+						<div class="bor8 m-b-20 how-pos4-parent">
+							<input asp-for="Email" class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="text" placeholder="Your Email Address">
+							<span asp-validation-for="Email" class="text-danger"></span>
+						</div>
+
+						<div class="bor8 m-b-30">
+							<input asp-for="PhoneNumber" class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="number" >
+							<span asp-validation-for="PhoneNumber" class="text-danger"></span>
+						</div>
+
+						<div class="bor8 m-b-30">
+							<input asp-for="Password" class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="password" >
+							<span asp-validation-for="Password" class="text-danger"></span>
+						</div>
+
+						<input type="submit" value="Create" class="flex-c-m stext-101 cl0 size-121 bg3 bor1 hov-btn3 p-lr-15 trans-04 pointer"/>
+							
+						
+
+					
+					</form>
+				</div>
+
+				<div class="col-11 col-md-5 col-lg-4 m-lr-auto">
+					<div class="how-bor1 ">
+						<div class="hov-img0">
+							<img src="~/web/images/loginpage.png" alt="IMG">
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     @*    <form asp-action="Register">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="FirstName" class="control-label"></label>
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LasttName" class="control-label"></label>
+                <input asp-for="LasttName" class="form-control" />
+                <span asp-validation-for="LasttName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PhoneNumber" class="control-label"></label>
+                <input asp-for="PhoneNumber" class="form-control" />
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+       
+           
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form> *@
+
