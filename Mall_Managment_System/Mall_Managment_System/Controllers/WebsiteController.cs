@@ -81,11 +81,9 @@ namespace Mall_Managment_System.Controllers
 
 		[HttpPost]
 		public IActionResult Login(Users user)
-		{
-			if (ModelState.IsValid)
-			{
-				var dbUser = user_context.Users
-					.FirstOrDefault(u => u.Email == user.Email && u.Password == user.Password);
+				{
+			
+				var dbUser = user_context.Users.FirstOrDefault(u => u.Email == user.Email && u.Password == user.Password );
 
 
 				if (dbUser != null)
@@ -96,38 +94,28 @@ namespace Mall_Managment_System.Controllers
 					user_context.SaveChanges();
 
 					// Log user role for debugging
-					Console.WriteLine($"User {dbUser.Email} logged in with role {dbUser.Rolls}");
+				//	Console.WriteLine($"User {dbUser.Email} logged in with role {dbUser.Rolls}");
 
 					// Redirect based on user role
 					if (dbUser.Rolls == "1")
 					{
 						return RedirectToAction("Index", "Home"); // Admin Dashboard
 					}
-					else if (dbUser.Rolls == "0")
+					else
 					{
 						return RedirectToAction("Index", "Website"); // User Website
 					}
-					else
-					{
-						return RedirectToAction("Register", "Website"); // Default action for other roles
-					}
+					
 				}
 				else
 				{
-					ModelState.AddModelError("error", "Invalid email or password");
+                ViewBag.error = "Email and Password Invalid";
+             //   ModelState.AddModelError("error", "Invalid email or password");
 				}
-			}
-			else
-			{
-				// Log model state errors for debugging
-				foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
-				{
-					Console.WriteLine($"Model Error: {error.ErrorMessage}");
-				}
-			}
+			
 
 			// If we got this far, something failed, redisplay form
-			return RedirectToAction("index","Home");
+			return RedirectToAction("Index","Website");
 		}
 
 
