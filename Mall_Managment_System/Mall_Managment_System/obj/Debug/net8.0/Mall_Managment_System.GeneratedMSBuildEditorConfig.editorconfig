@@ -146,7 +146,19 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxpbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< Updated upstream
 [E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Website/About.cshtml]
+=======
+[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/User/details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxkZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Website/About.cshtml]
+>>>>>>> Stashed changes
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
@@ -158,7 +170,19 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< Updated upstream
 [E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Website/Index.cshtml]
+=======
+[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Website/FoodCourt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxGb29kQ291cnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Website/Gallary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxHYWxsYXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Website/Index.cshtml]
+>>>>>>> Stashed changes
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
@@ -166,11 +190,35 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< Updated upstream
 [E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Website/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/dot net core project/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/_ViewImports.cshtml]
+=======
+[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Website/MovieDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxNb3ZpZURldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Website/Movies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxNb3ZpZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Website/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Website/Shop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxTaG9wLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Website/ShopDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxTaG9wRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/_ViewImports.cshtml]
+>>>>>>> Stashed changes
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 

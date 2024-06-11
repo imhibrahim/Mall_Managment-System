@@ -1,4 +1,5 @@
 ﻿using Mall_Managment_System.Migrations.ContactDb;
+using Mall_Managment_System.Migrations.MovieDb;
 using Mall_Managment_System.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -29,6 +30,66 @@ namespace Mall_Managment_System.Controllers
 		{
 			return View();
 		}
+
+
+
+		public IActionResult Movies()
+		{
+			var Movie = user_context.Movies.ToList();
+			return View(Movie);
+		}
+
+
+		public IActionResult MovieDetails(int id)
+		{
+
+			var data = user_context.Movies.FirstOrDefault(x => x.Id == id);
+			return View(data);
+		}
+
+
+
+
+
+
+		public IActionResult Gallary()
+        {
+            var galleryItems = user_context.Gallary.ToList();
+            return View(galleryItems);
+        }
+
+		public IActionResult Shop()
+		{
+			var shops = user_context.Shops.ToList();
+			return View(shops);
+		}
+
+
+		public IActionResult ShopDetails(int id)
+		{
+
+			var data = user_context.Shops.FirstOrDefault(x => x.ID == id);
+			return View(data);
+		}
+
+		public IActionResult Shopitem()
+		{
+			var shopitem = user_context.Items.ToList();
+			return View(shopitem);
+		}
+
+		public IActionResult FoodCourt()
+		{
+			var court = user_context.FoodCourt.ToList();
+			return View(court);
+		}
+		public IActionResult Fooditem()
+		{
+			var fooditem = user_context.FoodItems.ToList();
+			return View(fooditem);
+		}
+
+
 
 		public IActionResult Blog()
 		{

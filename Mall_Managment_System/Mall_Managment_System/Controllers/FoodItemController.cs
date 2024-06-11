@@ -65,7 +65,6 @@ namespace Mall_Managment_System.Controllers
                 Price = fooditem.Price,
                 Image = filename
 
-
             };
 
             FoodItem_context.FoodItems.Add(FI);

@@ -1,0 +1,90 @@
+﻿@model IEnumerable<Mall_Managment_System.Models.Users>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container  pt-4 px-4  align-content-center">
+    <div class="row g-4">
+
+        <div class="col-sm-12 col-xl-6 w-100">
+            <div class="bgcolor rounded h-100 p-4">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4 class="mb-4">All Users</h4>
+
+                    </div>
+                 
+                </div>
+                <table class="table table-hover">
+                    <thead class="text-white">
+        <tr>
+                            <th scope="col">
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+                            <th scope="col">
+                @Html.DisplayNameFor(model => model.LasttName)
+            </th>
+                            <th scope="col">
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+                            <th scope="col">
+                @Html.DisplayNameFor(model => model.Password)
+            </th>
+                  
+                      
+                            <th scope="col">
+                @Html.DisplayNameFor(model => model.Rolls)
+            </th>
+                            <th scope="col"> Action</th>
+        </tr>
+    </thead>
+                    <tbody class="text-white-50">
+@foreach (var item in Model) {
+        <tr>
+                                <td scope="row">
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+                                <td scope="row">
+                @Html.DisplayFor(modelItem => item.LasttName)
+            </td>
+                                <td scope="row">
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+                               
+                                <td scope="row">
+                @Html.DisplayFor(modelItem => item.Password)
+            </td>
+                   
+                                <td scope="row">
+                                    @if (item.Rolls == "1")
+                                    {
+                                        @:Admin
+                                    }
+                                    else
+                                    {
+                                        @:User
+                                    }
+
+                                </td>
+                                <td scope="row">
+                                    @if (item.Rolls == "1")
+                                    {
+                                        <a class="btn btn-outline-info disabled me-2" asp-action="Details" asp-route-id="@item.Userid">Details</a>
+                                        <a class="btn btn-outline-danger disabled me-2" asp-action="Delete" asp-route-id="@item.Userid">Delete</a>
+                                    }
+                                    else
+                                    {
+                                        <a class="btn btn-outline-info me-2" asp-action="Details" asp-route-id="@item.Userid">Details</a>
+                                        <a class="btn btn-outline-danger me-2" asp-action="Delete" asp-route-id="@item.Userid">Delete</a>
+                                    }
+
+                             
+            </td>
+        </tr>
+}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>

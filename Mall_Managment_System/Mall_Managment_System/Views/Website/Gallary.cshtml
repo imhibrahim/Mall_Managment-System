@@ -1,0 +1,34 @@
+﻿@model IEnumerable<Mall_Managment_System.Models.Gallary>
+@{
+	Layout = "/Views/Shared/layouts.cshtml";
+}
+
+<!-- Title page -->
+<section class="bg-img1 txt-center p-lr-15 p-tb-92 mb-3" style="background-image: url('/web/images/mall.jpg');">
+	<h2 class="ltext-105 cl0 txt-center">
+	Mall Images &  Memories
+	</h2>
+</section>
+
+<hr />
+<hr />
+<hr />
+<hr />
+<h1 class="text-center fw-bolde">MALL GALLARY</h1>
+<div class="container">
+
+	<div class="row p-1">
+@foreach(var item in Model){
+
+			<div class="col-md-4 mb-3 text-center ">
+				<hr />
+				<hr />
+				<hr />
+				<img src="@Url.Content("~/images/" + item.Image)" style="width:300px; height:300px;" class=" border border-danger img-thumbnail rounded" />
+				<h4 class="text-success mt-2">@Html.DisplayFor(modelItem => item.Name) <span class="badge bg-danger">New</span></h4>
+			</div>
+			
+}
+
+	</div>
+</div>

@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Mall_Managment_System.Models.Shops>
+@{
+	Layout = "/Views/Shared/layouts.cshtml";
+}
+
+<!-- Title page -->
+<section class="bg-img1 txt-center p-lr-15 p-tb-92 mb-3" style="background-image: url('/web/images/mall.jpg');">
+	<h2 class="ltext-105 cl0 txt-center">
+		Mall Shop's
+	</h2>
+</section>
+
+<hr />
+<hr />
+<hr />
+<hr />
+<h1 class="text-center fw-bolde">Mall All Shops</h1>
+<div class="container">
+
+	<div class="row p-1">
+		@foreach (var item in Model)
+		{
+
+			<div class="col-md-4 mb-3 text-center ">
+				<hr />
+				<hr />
+				<hr />
+
+
+				<div class="project">
+					<div class="project__card">
+						<a href="" class="project__image"><img src="@Url.Content("~/images/" + item.Image)" width=600 height=400 alt=""></a>
+						<div class="project__detail">
+							<h2 class="project__title"><a href="#">@Html.DisplayFor(modelItem => item.Name)</a></h2>
+							<small class="project__category"><a asp-action="ShopDetails" asp-route-id="@item.ID">Details</a></small>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		}
+
+	</div>
+</div>

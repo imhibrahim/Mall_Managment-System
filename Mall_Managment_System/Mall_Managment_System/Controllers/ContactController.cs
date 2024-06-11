@@ -63,9 +63,6 @@ namespace Mall_Managment_System.Controllers
                 return RedirectToAction("Index");
             }
 
-
-
-
             Contact_context.contact.Remove(contact);
             Contact_context.SaveChanges(true);
             return RedirectToAction("Index");

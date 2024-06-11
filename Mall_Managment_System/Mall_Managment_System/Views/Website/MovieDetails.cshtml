@@ -1,0 +1,86 @@
+﻿@model Mall_Managment_System.Models.Movies
+
+@{
+    Layout = "/Views/Shared/layouts.cshtml";
+}
+
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+            <h1 class="mtext-105 cl2 txt-center p-b-30">
+                Movie Details</h1>
+
+        
+                <div>
+
+                    <a class="btn btn-outline-info mb-2" asp-action="Movies">Back to List</a>
+                </div>
+               
+                <div class="row text-center">
+
+                    
+                    <div class="col-md-6">
+                        <img src="~/images/@Html.DisplayFor(model => model.Image)" class="w-100"/>
+
+              
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Movie Name  <br /> @Html.DisplayFor(model => model.MovieName)</h3>
+
+
+
+                        <p><b>Description :</b><br /> @Html.DisplayFor(model => model.Description)</p>
+
+
+
+
+                        <h5>Totel Sets <span class="badge bg-warning">@Html.DisplayFor(model => model.TotalSeats)</span></h5>
+
+
+
+
+                        <h5>Available Sets <span class="badge bg-success">@Html.DisplayFor(model => model.AvailableSeats)</span></h5>
+                    </div>
+
+                    
+                   
+                </div>
+           
+    
+
+</div>
+
+<div class="col-md-6">
+
+            <form>
+                <h4 class="mtext-105 cl2 txt-center p-b-30">
+                    Booking This Movie
+                </h4>
+
+                <div class="bor8 m-b-20 how-pos4-parent">
+                    <input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="text" name="email" placeholder="Your Email Address">
+                    <img class="how-pos4 pointer-none" src="~/web/images/icons/icon-email.png" alt="ICON">
+                </div>
+
+                <div class="bor8 m-b-30">
+                    <textarea class="stext-111 cl2 plh3 size-120 p-lr-28 p-tb-25" name="msg" placeholder="How Can We Help?"></textarea>
+                </div>
+
+                <button class="flex-c-m stext-101 cl0 size-121 bg3 bor1 hov-btn3 p-lr-15 trans-04 pointer">
+                    Submit
+                </button>
+            </form>
+
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
