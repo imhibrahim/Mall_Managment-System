@@ -15,9 +15,9 @@ namespace Mall_Managment_System.Models
         [Required]
         public string Email { get; set; }
 
-        [Column("Contact_Number", TypeName = "int")]
+        [Column("Contact_Number", TypeName = "varchar(50)")]
         [Required]
-        public int Number { get; set; }
+        public string Number { get; set; }
 
         [Column("Contact_Massage", TypeName = "varchar(max)")]
         [Required]

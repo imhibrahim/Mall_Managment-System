@@ -6,8 +6,8 @@ using System.Diagnostics;
 
 namespace Mall_Managment_System.Controllers
 {
-	//[Authorize(Roles = "1")]
-	public class HomeController : Controller
+  
+    public class HomeController : Controller
     {
 	
 		private readonly ILogger<HomeController> _logger;

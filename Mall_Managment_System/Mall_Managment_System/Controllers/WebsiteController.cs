@@ -100,6 +100,30 @@ namespace Mall_Managment_System.Controllers
 			return View();
 		}
 
+		[HttpPost]
+		public IActionResult Contact(Contact contact)
+		{
+
+			Contact Contact = new Contact
+			{
+				Name = contact.Name,
+				Email = contact.Email,
+				Number = contact.Number,
+				Massage = contact.Massage
+
+
+			};
+
+			user_context.Add(Contact);
+			user_context.SaveChanges();
+			ViewBag.success = "Recoard inserted";
+
+			return RedirectToAction("index","Website");
+
+		}
+
+
+
 		public IActionResult Register()
 		{
 			return View();
