@@ -18,5 +18,7 @@ namespace Mall_Managment_System.Models
         public DbSet<Items> Items { get; set; }
         public DbSet<FoodItems> FoodItems { get; set; }
         public DbSet<Users> Users { get; set; }
+        public DbSet<Booking> Booking { get; set; }
+      public DbSet<Feedback> Feedback { get; set; }
     }
 }
