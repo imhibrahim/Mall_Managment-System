@@ -20,7 +20,11 @@ namespace Mall_Managment_System.Models
 		[Required]
 		public DateTime Booking_Date { get; set; }
 
-		[Column("Number_Tickets")]
+        [Column("Booking_sets")]
+        [Required]
+        public string Booking_sets { get; set; }
+
+        [Column("Number_Tickets")]
 		[Required]
 		public int Number_Tickets { get; set; }
 	}

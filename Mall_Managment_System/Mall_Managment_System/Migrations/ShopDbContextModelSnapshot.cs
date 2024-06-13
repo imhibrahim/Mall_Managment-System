@@ -34,6 +34,11 @@ namespace Mall_Managment_System.Migrations
                         .HasColumnType("datetime2")
                         .HasColumnName("Booking_Date");
 
+                    b.Property<string>("Booking_sets")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("Booking_sets");
+
                     b.Property<int>("MovieId")
                         .HasColumnType("int");
 

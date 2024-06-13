@@ -1,0 +1,47 @@
+﻿@model Mall_Managment_System.Models.Booking
+
+@{
+    Layout = "/Views/Shared/layouts.cshtml";
+        var movie = ViewBag.Movie as Mall_Managment_System.Models.Movies;
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+
+            <form asp-action="Booking">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    
+                        @if (movie != null)
+                        {
+                            <h3>Movie Name : @movie.MovieName</h3>
+                          
+                        }
+                </div>
+           
+                <div class="form-group">
+                    <label asp-for="Booking_Date" class="control-label"></label>
+                    <input asp-for="Booking_Date" class="form-control" />
+                    <span asp-validation-for="Booking_Date" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <h5>Available Sets : @movie.AvailableSeats</h5>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Booking_sets" class="control-label"></label>
+                    <input asp-for="Booking_sets" class="form-control" />
+                    <span asp-validation-for="Booking_sets" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+
+</div>
+

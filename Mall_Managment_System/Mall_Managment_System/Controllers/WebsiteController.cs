@@ -3,7 +3,11 @@ using Mall_Managment_System.Migrations.MovieDb;
 using Mall_Managment_System.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System.Collections.Generic;
+using System.Linq;
 
 
 namespace Mall_Managment_System.Controllers
@@ -46,13 +50,59 @@ namespace Mall_Managment_System.Controllers
 			var data = user_context.Movies.FirstOrDefault(x => x.Id == id);
 			return View(data);
 		}
+        //public IActionResult Booking(int id)
+        //{
+        //    var data = user_context.Movies.FirstOrDefault(x => x.Id ==id );
+
+        //    return View(data);
+        //}
+
+
+        public IActionResult Booking(int id)
+        {
+            var movie = user_context.Movies.FirstOrDefault(x => x.Id == id);
+            if (movie == null)
+            {
+                // Handle the case where the movie is not found
+                return NotFound();
+            }
+
+            // Pass the movie data using ViewBag or ViewData
+            ViewBag.Movie = movie;
+
+            return View();
+        }
+
+        public IActionResult Feedback()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Feedback(Feedback feedback)
+        {
+
+            Feedback Feedback = new Feedback
+            {
+            UserId=feedback.UserId, 
+			Environment=feedback.Environment,
+			Rating=feedback.Rating,
+			Message= feedback.Message,
+			FeedbackDate= feedback.FeedbackDate
+			
+
+            };
+
+            user_context.Feedback.Add(feedback);
+            user_context.SaveChanges();
+            ViewBag.success = "Recoard inserted";
+
+            return RedirectToAction("Feedback");
+        }
 
 
 
 
-
-
-		public IActionResult Gallary()
+        public IActionResult Gallary()
         {
             var galleryItems = user_context.Gallary.ToList();
             return View(galleryItems);

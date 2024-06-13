@@ -32,6 +32,9 @@
                             <th scope="col">
                 @Html.DisplayNameFor(model => model.Number_Tickets)
             </th>
+                            <th scope="col">
+                                @Html.DisplayNameFor(model => model.Booking_sets)
+                            </th>
                             <th scope="col">Actions</th>
         </tr>
     </thead>
@@ -50,6 +53,9 @@
                                 <td scope="row">
                 @Html.DisplayFor(modelItem => item.Number_Tickets)
             </td>
+                                <td scope="row">
+                                    @Html.DisplayFor(modelItem => item.Booking_sets)
+                                </td>
                                 <td scope="row">
                                     <a class="btn btn-outline-info me-2" asp-action="Details" asp-route-id="@item.Id">Details</a> 
                                     <a class="btn btn-outline-danger me-2" asp-action="Delete" asp-route-id="@item.Id">Delete</a>

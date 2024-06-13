@@ -22,6 +22,10 @@ namespace Mall_Managment_System.Controllers
 			return View(Booking_context.Booking.ToList());
 		}
 
+      
+
+
+
         public IActionResult Delete(int id)
         {
             var booking = Booking_context.Booking.Find(id);
