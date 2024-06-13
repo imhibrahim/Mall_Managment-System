@@ -1,8 +1,11 @@
 ﻿@model Mall_Managment_System.Models.Shops
 
 
+
 @{
     Layout = "/Views/Shared/layouts.cshtml";
+    var item = ViewBag.Item as Mall_Managment_System.Models.Items;
+}
 }
 <div class="container">
     <div class="row">
@@ -25,14 +28,23 @@
 
 
                 <div class="col-md-6">
-                  
-                        <h2>Shop Name  @Html.DisplayFor(model => model.Name)</h2>
-                        <p><b>Description</b>  @Html.DisplayFor(model => model.Description)</p>
+
+                    <h2>Shop Name  @Html.DisplayFor(model => model.Name)</h2>
+                    <p><b>Description</b>@Html.DisplayFor(model => model.Description)</p>
                    
 
                 </div>
 
           </div>
+
+    </div>
+    <div class="row">
+        <h1>shops items</h1>
+            @if (item != null)
+            {
+                <h3>shop item Name : @item.Description</h3>
+
+            }
 
     </div>
 

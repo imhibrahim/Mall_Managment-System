@@ -1,4 +1,5 @@
 ﻿using Mall_Managment_System.Migrations.ContactDb;
+using Mall_Managment_System.Migrations.ItemDb;
 using Mall_Managment_System.Migrations.MovieDb;
 using Mall_Managment_System.Models;
 using Microsoft.AspNetCore.Authorization;
@@ -8,11 +9,20 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
+
+
+
 
 
 namespace Mall_Managment_System.Controllers
 {
-	//[Authorize(Roles = "0")]
+	//[Authorize]
 	public class WebsiteController : Controller
 	{
 		ApplicationDbContext user_context;
@@ -36,8 +46,10 @@ namespace Mall_Managment_System.Controllers
 		}
 
 
+        //[AllowAnonymous]
+        //[HttpPost]
 
-		public IActionResult Movies()
+        public IActionResult Movies()
 		{
 			var Movie = user_context.Movies.ToList();
 			return View(Movie);
@@ -50,15 +62,17 @@ namespace Mall_Managment_System.Controllers
 			var data = user_context.Movies.FirstOrDefault(x => x.Id == id);
 			return View(data);
 		}
-        //public IActionResult Booking(int id)
-        //{
-        //    var data = user_context.Movies.FirstOrDefault(x => x.Id ==id );
+		//public IActionResult Booking(int id)
+		//{
+		//    var data = user_context.Movies.FirstOrDefault(x => x.Id ==id );
 
-        //    return View(data);
-        //}
+		//    return View(data);
+		//}
 
 
-        public IActionResult Booking(int id)
+		[AllowAnonymous]
+		[HttpPost]
+		public IActionResult Booking(int id)
         {
             var movie = user_context.Movies.FirstOrDefault(x => x.Id == id);
             if (movie == null)
@@ -73,9 +87,9 @@ namespace Mall_Managment_System.Controllers
             return View();
         }
 
-        public IActionResult Feedback()
+        public IActionResult Feedback(int id)
         {
-            return View();
+			return View();
         }
         [HttpPost]
         public IActionResult Feedback(Feedback feedback)
@@ -101,25 +115,27 @@ namespace Mall_Managment_System.Controllers
 
 
 
-
+		
         public IActionResult Gallary()
         {
             var galleryItems = user_context.Gallary.ToList();
             return View(galleryItems);
         }
 
-		public IActionResult Shop()
+
+
+
+		public IActionResult Shop(int id)
 		{
-			var shops = user_context.Shops.ToList();
-			return View(shops);
+        
+			return View(user_context.Shops.ToList());
 		}
 
 
-		public IActionResult ShopDetails(int id)
+		public IActionResult ShopDetails()
 		{
-
-			var data = user_context.Shops.FirstOrDefault(x => x.ID == id);
-			return View(data);
+		
+			return View();
 		}
 
 		public IActionResult Shopitem()
@@ -213,47 +229,66 @@ namespace Mall_Managment_System.Controllers
 
 
 
-
 		[HttpPost]
-		public IActionResult Login(Users user)
+		public async Task<IActionResult> Login(Users user)
+		{
+			var dbUser = user_context.Users.FirstOrDefault(u => u.Email == user.Email && u.Password == user.Password);
+
+			if (dbUser != null)
+			{
+				// Update UserLogin field to "1"
+				dbUser.UserLogin = "1";
+				user_context.SaveChanges();
+
+				// Set session variables
+				HttpContext.Session.SetString("UserEmail", dbUser.Email);
+				HttpContext.Session.SetString("UserRole", dbUser.Rolls);
+
+				// Create claims
+				var claims = new List<Claim>
+			{
+				new Claim(ClaimTypes.Name, dbUser.Email),
+				new Claim(ClaimTypes.Role, dbUser.Rolls)
+			};
+
+				var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+
+				var authProperties = new AuthenticationProperties
 				{
-			
-				var dbUser = user_context.Users.FirstOrDefault(u => u.Email == user.Email && u.Password == user.Password );
+					IsPersistent = true
+				};
 
+				await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
 
-				if (dbUser != null)
+				// Redirect based on user role
+				if (dbUser.Rolls == "1")
 				{
-
-					// Update UserLogin field to "1"
-					dbUser.UserLogin = "1";
-					user_context.SaveChanges();
-
-					// Log user role for debugging
-				//	Console.WriteLine($"User {dbUser.Email} logged in with role {dbUser.Rolls}");
-
-					// Redirect based on user role
-					if (dbUser.Rolls == "1")
-					{
-						return RedirectToAction("Index", "Home"); // Admin Dashboard
-					}
-					else
-					{
-						return RedirectToAction("Index", "Website"); // User Website
-					}
-					
+					return RedirectToAction("Index", "Home"); // Admin Dashboard
+				}
+				if (dbUser.Rolls == "0")
+				{
+					return RedirectToAction("Index", "Website"); // User Website
 				}
 				else
 				{
-                ViewBag.error = "Email and Password Invalid";
-             //   ModelState.AddModelError("error", "Invalid email or password");
+					return RedirectToAction("Register", "Website");
 				}
-			
+			}
+			else
+			{
+				ViewBag.error = "Email and Password Invalid";
+			}
 
-			// If we got this far, something failed, redisplay form
-			return RedirectToAction("Index","Website");
+			return RedirectToAction("Register", "Website");
 		}
 
-
+		[HttpPost]
+		public async Task<IActionResult> Logout()
+		{
+			await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+			HttpContext.Session.Clear();
+			return RedirectToAction("Login", "Website");
+		}
 
 	}
 }

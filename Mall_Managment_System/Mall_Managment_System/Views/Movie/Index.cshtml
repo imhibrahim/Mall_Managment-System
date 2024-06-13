@@ -48,11 +48,11 @@
                                 <td scope="row">
                     @Html.DisplayFor(modelItem => item.MovieName)
                 </td>
-                                <td scope="row">
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
+                                <td scope="row" class="overflow-auto">
+                                    @Html.DisplayFor(modelItem => item.Description)
+                                </td>
             <td scope="row">
-                    <img src="~/images/@Html.DisplayFor(modelItem => item.Image)" style="width:70px; height:70px" />
+                    <img src="~/images/@Html.DisplayFor(modelItem => item.Image)" class="w-100" />
             </td>
             <td scope="row">
                 @Html.DisplayFor(modelItem => item.TotalSeats)

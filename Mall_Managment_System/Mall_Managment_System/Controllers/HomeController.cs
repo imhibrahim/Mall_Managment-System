@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
+
+
 namespace Mall_Managment_System.Controllers
 {
   
@@ -18,18 +20,18 @@ namespace Mall_Managment_System.Controllers
         }
 
 
- 
-		public IActionResult Index()
-        {
+
+        //[AllowAnonymous]
+        //[HttpPost]
+        public IActionResult Index()
+        { 
+          
             return View();
         }
        
       
       
-        public IActionResult Item()
-        {
-            return View();
-        }
+       
 
 
 

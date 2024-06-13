@@ -1,63 +1,73 @@
 ﻿@model Mall_Managment_System.Models.Feedback
 
+
 @{
     Layout = "/Views/Shared/layouts.cshtml";
+    var feedback = ViewBag.feedback as Mall_Managment_System.Models.Users;
 }
 
 <div class="container">
-    <div class="row text-center">
+    <div class="row text-center mb-5">
 
         <div class="col-md-6">
             <img src="https://images.unsplash.com/photo-1541963463532-d68292c34b19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80" width="100%" height="650px">
         </div>
-        <div class="col-md-6  text-center">
+        <div class="col-md-6 rounded border border-info p-3 text-center">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjOmKrowFTZUZPoIhND5tPRNNVOq6Ht4nk2Q&usqp=CAU">
-            <div class="row text-center mt-3 w-100">
-                <form asp-action="Feedback">
-                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                 
-                   <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group w-100">
-                                <label asp-for="Environment" class="control-label"></label>
-                                <select asp-for="Environment" class="form-control" required="">
-                                    <option selected disabled>Select Environment</option>
-                                    <option>Excellent</option>
-                                    <option>Good</option>
-                                    <option>No deficiency</option>
-                                    <option>No cafeteria</option>
-                                    <option>Cleanliness issue</option>
-                                    <option>Other</option>
-                                </select>
-                                <span asp-validation-for="Environment" class="text-danger"></span>
-                            </div>
+            <form asp-action="Feedback">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-                            
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group w-100">
-                                <label asp-for="Rating" class="control-label"></label>
-                                <input asp-for="Rating" class="form-control" min="0" max="5" />
-                                <span asp-validation-for="Rating" class="text-danger"></span>
-                            </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group w-100">
+                            <label asp-for="Environment" class="control-label"></label>
+                            <select asp-for="Environment" class="form-control" required="">
+                                <option selected disabled>Select Environment</option>
+                                <option>Excellent</option>
+                                <option>Good</option>
+                                <option>No deficiency</option>
+                                <option>No cafeteria</option>
+                                <option>Cleanliness issue</option>
+                                <option>Other</option>
+                            </select>
+                            <span asp-validation-for="Environment" class="text-danger"></span>
                         </div>
 
-                   </div>
-                    <div class="form-group w-100">
-                        <label asp-for="Message" class="control-label"></label>
-                        <textarea asp-for="Message" class="form-control" ></textarea>
-                        <span asp-validation-for="Message" class="text-danger"></span>
+
                     </div>
-                    <div class="form-group w-100">
-                        <label asp-for="FeedbackDate" class="control-label"></label>
-                        <h5 asp-for="FeedbackDate" id="feedbackDate" class="form-control"></h5>
-                        <span asp-validation-for="FeedbackDate" class="text-danger"></span>
+               @*      <div class="col-md-6">
+                        <div class="form-group w-100">
+                            @if (feedback != null)
+                            {
+                                <input type="hidden" value="@feedback.Userid" />
+
+                            }
+                        </div>
+                    </div> *@
+
+          
+               <div class="col-md-6">
+                     <div class="form-group w-100">
+                        <label asp-for="Rating" class="control-label"></label>
+                        <input asp-for="Rating" class="form-control" min="1" max="5" />
+                        <span asp-validation-for="Rating" class="text-danger"></span>
                     </div>
-                    <div class="form-group w-100">
-                        <input type="submit" value="Create" class="btn btn-primary" />
-                    </div>
-                </form>
-           </div>
+               </div>
+                </div>
+                <div class="form-group w-100">
+                    <label asp-for="Message" class="control-label"></label>
+                    <textarea asp-for="Message" class="form-control"></textarea>
+                    <span asp-validation-for="Message" class="text-danger"></span>
+                </div>
+                <div class="form-group w-100">
+                    <label asp-for="FeedbackDate" class="control-label"></label>
+                    <h5 asp-for="FeedbackDate" id="feedbackDate" class="form-control"></h5>
+                    <span asp-validation-for="FeedbackDate" class="text-danger"></span>
+                </div>
+                <div class="form-group w-100">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
         </div>
 
     </div>

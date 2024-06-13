@@ -1,4 +1,11 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+
+	var email = ViewBag.Email as String;
+}
+
+<!DOCTYPE html>
 
 <html>
 <head>
@@ -91,32 +98,34 @@
 							<li>
 								<a asp-action="Contact" asp-controller="Website">Contact</a>
 							</li>
-							<li>
-								<i class="fa-solid fa-user-plus"></i>
 
-								<ul class="sub-menu">
-									<li>
-										<a asp-action="Register" asp-controller="Website">Register</a>
-									</li>
-									<li>
-										<a asp-action="Login" asp-controller="Website">Login</a>
-									</li>
-
-								</ul>
-							</li>
-
+							@if (HttpContextAccessor.HttpContext.User.Identity.IsAuthenticated)
+							{
+								<li>@HttpContextAccessor.HttpContext.User.Identity.Name</li>
+								<li>
+									<form asp-action="Logout" asp-controller="Website" method="post">
+										<button type="submit">Logout</button>
+									</form>
+								</li>
+							}
+							else
+							{
+								<li>
+									<i class="fa-solid fa-user-plus"></i>
+									<ul class="sub-menu">
+										<li>
+											<a asp-action="Register" asp-controller="Website">Register</a>
+										</li>
+										<li>
+											<a asp-action="Login" asp-controller="Website">Login</a>
+										</li>
+									</ul>
+								</li>
+							}
 						</ul>
 					</div>
 
-					<!-- Icon header -->
-				@* 	<div class="wrap-icon-header flex-w flex-r-m h-full">
-						<div class="flex-c-m h-full p-r-24">
-							<div class="icon-header-item cl2 hov-cl1 trans-04 p-lr-11">
-								<a href="login.html"><img src="~/web/images/login.png" height="20px" width="20px" title="login" alt=""></a>
-							</div>
-						</div>
-
-					</div> *@
+				
 				</nav>
 			</div>
 		</div>

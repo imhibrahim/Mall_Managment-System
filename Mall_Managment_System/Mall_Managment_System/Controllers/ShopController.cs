@@ -1,29 +1,42 @@
 ﻿using Mall_Managment_System.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Hosting;
 using System;
 
 namespace Mall_Managment_System.Controllers
 {
+  
     public class ShopController : Controller
     {
         private readonly ApplicationDbContext shop_context;
         private readonly IWebHostEnvironment env;
 
-
+      
         public ShopController(ApplicationDbContext shops, IWebHostEnvironment hc)
         {
             this.shop_context = shops;
             env = hc;
         }
-
+        
         public IActionResult Index()
         {
             return View(shop_context.Shops.ToList());
         }
 
+        //[AllowAnonymous]
+        //[HttpPost]
         public IActionResult Addproduct()
         {
+            //var shop = shop_context.Users.FirstOrDefault(x => x.Userid ==id);
+            //if (shop == null)
+            //{
+
+            //    return View("Register");
+            //}
+
+
+           // ViewBag.shop = shop;
             return View();
         }
 

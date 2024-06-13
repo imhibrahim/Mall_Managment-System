@@ -4,22 +4,40 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+// Register IHttpContextAccessor
+builder.Services.AddHttpContextAccessor();
+
+// Add session services
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession(options =>
+{
+	options.IdleTimeout = TimeSpan.FromMinutes(30); // Set the session timeout as required
+	options.Cookie.HttpOnly = true;
+	options.Cookie.IsEssential = true;
+});
+
+// Add cookie authentication
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+	.AddCookie(options =>
+	{
+		options.LoginPath = "/Website/Login";
+		options.LogoutPath = "/Website/Logout";
+		options.AccessDeniedPath = "/Website/AccessDenied";
+	});
+
 var provide = builder.Services.BuildServiceProvider();
 var config = provide.GetRequiredService<IConfiguration>();
 
-
-builder.Services.AddDbContext<ApplicationDbContext>(options => options.
-UseSqlServer(config.GetConnectionString("DefaultConnection")));
-
-
+builder.Services.AddDbContext<ApplicationDbContext>(options => options
+	.UseSqlServer(config.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
@@ -27,7 +45,6 @@ var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
 	app.UseExceptionHandler("/Home/Error");
-	// The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
 	app.UseHsts();
 }
 
@@ -36,15 +53,14 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseSession();
+
+// Enable authentication middleware
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
 	name: "default",
-	// pattern: "{controller=Home}/{action=index}/{id?}");
-	pattern: "{controller=Website}/{action=index}");
+	pattern: "{controller=Website}/{action=Index}");
 
 app.Run();
-
-
-
-
