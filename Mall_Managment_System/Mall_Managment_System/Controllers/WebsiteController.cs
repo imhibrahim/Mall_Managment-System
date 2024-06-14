@@ -87,11 +87,16 @@ namespace Mall_Managment_System.Controllers
             return View();
         }
 
-        public IActionResult Feedback(int id)
-        {
+		public IActionResult Feedback()
+		{
+
 			return View();
-        }
-        [HttpPost]
+		}
+
+
+
+
+		[HttpPost]
         public IActionResult Feedback(Feedback feedback)
         {
 
@@ -243,12 +248,14 @@ namespace Mall_Managment_System.Controllers
 				// Set session variables
 				HttpContext.Session.SetString("UserEmail", dbUser.Email);
 				HttpContext.Session.SetString("UserRole", dbUser.Rolls);
+		
 
 				// Create claims
 				var claims = new List<Claim>
 			{
 				new Claim(ClaimTypes.Name, dbUser.Email),
-				new Claim(ClaimTypes.Role, dbUser.Rolls)
+				new Claim(ClaimTypes.Role, dbUser.Rolls),
+				
 			};
 
 				var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);

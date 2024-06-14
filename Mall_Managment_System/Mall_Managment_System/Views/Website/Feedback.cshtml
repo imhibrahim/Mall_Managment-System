@@ -1,9 +1,15 @@
-﻿@model Mall_Managment_System.Models.Feedback
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+@model Mall_Managment_System.Models.Feedback
 
 
 @{
     Layout = "/Views/Shared/layouts.cshtml";
     var feedback = ViewBag.feedback as Mall_Managment_System.Models.Users;
+	var email = ViewBag.Email as String;
+
+  
+
 }
 
 <div class="container">
@@ -17,7 +23,23 @@
             <form asp-action="Feedback">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-                <div class="row">
+                <div class="row text-cenetr">
+                    <div class="col-md-12">
+                        @if (HttpContextAccessor.HttpContext.User.Identity.IsAuthenticated)
+                        {
+                            <h5>Your E-Mail is : @HttpContextAccessor.HttpContext.User.Identity.Name</h5>
+
+                        }
+                        else
+                        {
+                            <h5 class="text-danger">Please ! First you create an account.<br /> then you can give feedback </h5>
+                        }
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group w-100">
+                         
+                        </div>
+                    </div>
                     <div class="col-md-6">
                         <div class="form-group w-100">
                             <label asp-for="Environment" class="control-label"></label>
@@ -35,15 +57,7 @@
 
 
                     </div>
-               @*      <div class="col-md-6">
-                        <div class="form-group w-100">
-                            @if (feedback != null)
-                            {
-                                <input type="hidden" value="@feedback.Userid" />
-
-                            }
-                        </div>
-                    </div> *@
+                   
 
           
                <div class="col-md-6">
