@@ -1,9 +1,11 @@
 ﻿using Mall_Managment_System.Migrations.ContactDb;
 using Mall_Managment_System.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Mall_Managment_System.Controllers
 {
+    [Authorize(Roles = "1")]
     public class ContactController : Controller
     {
         ApplicationDbContext Contact_context;
@@ -14,17 +16,17 @@ namespace Mall_Managment_System.Controllers
             this.Contact_context = Contact;
             env = hc;
         }
-
+        [Authorize(Roles = "1")]
         public IActionResult Index()
         {
             return View(Contact_context.contact.ToList());
         }
-
+        [Authorize(Roles = "1")]
         public IActionResult AddContact()
         {
             return View();
         }
-
+        [Authorize(Roles = "1")]
         [HttpPost]
         public IActionResult AddContact(Contact contact)
         {
@@ -47,14 +49,14 @@ namespace Mall_Managment_System.Controllers
 
         }
 
-
+        [Authorize(Roles = "1")]
         public IActionResult details(int id) {
         
             var data= Contact_context.contact.FirstOrDefault(x=>x.id==id);
             return View(data);
         }
 
-
+        [Authorize(Roles = "1")]
         public IActionResult Delete(int id)
         {
             var contact = Contact_context.contact.Find(id);

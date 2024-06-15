@@ -4,11 +4,11 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-
-
 namespace Mall_Managment_System.Controllers
 {
-  
+
+
+
     public class HomeController : Controller
     {
 	
@@ -21,8 +21,8 @@ namespace Mall_Managment_System.Controllers
 
 
 
-        //[AllowAnonymous]
-        //[HttpPost]
+      
+        [Authorize(Roles = "1")]
         public IActionResult Index()
         { 
           

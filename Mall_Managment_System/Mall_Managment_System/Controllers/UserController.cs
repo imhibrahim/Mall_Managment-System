@@ -1,9 +1,11 @@
 ﻿using Mall_Managment_System.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Mall_Managment_System.Controllers
 {
-	public class UserController : Controller
+    [Authorize(Roles = "1")]
+    public class UserController : Controller
 	{
 		ApplicationDbContext User_Context;
 		IWebHostEnvironment env;

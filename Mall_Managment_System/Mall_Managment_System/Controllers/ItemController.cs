@@ -1,9 +1,11 @@
 ﻿using Mall_Managment_System.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Mall_Managment_System.Controllers
 {
+    [Authorize(Roles = "1")]
     public class ItemController : Controller
     {
         ApplicationDbContext Item_context;

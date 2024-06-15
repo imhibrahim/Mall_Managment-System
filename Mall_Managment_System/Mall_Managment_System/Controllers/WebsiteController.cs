@@ -35,6 +35,7 @@ namespace Mall_Managment_System.Controllers
             this.user_context = Contact;
             env = hc;
         }
+       // [Authorize(Roles = "0")]
         public IActionResult Index()
 		{
 			return View();
@@ -70,19 +71,19 @@ namespace Mall_Managment_System.Controllers
 		//}
 
 
-		[AllowAnonymous]
-		[HttpPost]
-		public IActionResult Booking(int id)
+		//[AllowAnonymous]
+		//[HttpPost]
+		public IActionResult Booking()
         {
-            var movie = user_context.Movies.FirstOrDefault(x => x.Id == id);
-            if (movie == null)
-            {
-                // Handle the case where the movie is not found
-                return NotFound();
-            }
+            //var movie = user_context.Movies.FirstOrDefault(x => x.Id == id);
+            //if (movie == null)
+            //{
+            //    // Handle the case where the movie is not found
+            //    return NotFound();
+            //}
 
-            // Pass the movie data using ViewBag or ViewData
-            ViewBag.Movie = movie;
+            //// Pass the movie data using ViewBag or ViewData
+            //ViewBag.Movie = movie;
 
             return View();
         }
@@ -248,6 +249,7 @@ namespace Mall_Managment_System.Controllers
 				// Set session variables
 				HttpContext.Session.SetString("UserEmail", dbUser.Email);
 				HttpContext.Session.SetString("UserRole", dbUser.Rolls);
+			
 		
 
 				// Create claims
@@ -255,8 +257,8 @@ namespace Mall_Managment_System.Controllers
 			{
 				new Claim(ClaimTypes.Name, dbUser.Email),
 				new Claim(ClaimTypes.Role, dbUser.Rolls),
-				
-			};
+           
+            };
 
 				var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
 

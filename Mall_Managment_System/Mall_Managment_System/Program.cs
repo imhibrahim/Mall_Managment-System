@@ -24,14 +24,23 @@ builder.Services.AddSession(options =>
 	options.Cookie.IsEssential = true;
 });
 
+
+
+
+
 // Add cookie authentication
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
 	.AddCookie(options =>
 	{
 		options.LoginPath = "/Website/Login";
 		options.LogoutPath = "/Website/Logout";
-		options.AccessDeniedPath = "/Website/AccessDenied";
+		options.AccessDeniedPath = "/Website/index";
 	});
+
+
+
+
+
 
 var provide = builder.Services.BuildServiceProvider();
 var config = provide.GetRequiredService<IConfiguration>();

@@ -1,11 +1,13 @@
 ﻿using Mall_Managment_System.Migrations;
 using Mall_Managment_System.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
 namespace Mall_Managment_System.Controllers
 {
+    [Authorize(Roles = "1")]
     public class FoodItemController : Controller
     {
 

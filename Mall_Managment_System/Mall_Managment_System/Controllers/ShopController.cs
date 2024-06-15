@@ -6,7 +6,7 @@ using System;
 
 namespace Mall_Managment_System.Controllers
 {
-  
+    [Authorize(Roles = "1")]
     public class ShopController : Controller
     {
         private readonly ApplicationDbContext shop_context;
@@ -18,14 +18,14 @@ namespace Mall_Managment_System.Controllers
             this.shop_context = shops;
             env = hc;
         }
-        
+
+      
         public IActionResult Index()
         {
             return View(shop_context.Shops.ToList());
         }
 
-        //[AllowAnonymous]
-        //[HttpPost]
+       
         public IActionResult Addproduct()
         {
             //var shop = shop_context.Users.FirstOrDefault(x => x.Userid ==id);
@@ -39,7 +39,7 @@ namespace Mall_Managment_System.Controllers
            // ViewBag.shop = shop;
             return View();
         }
-
+      
         [HttpPost]
         public IActionResult Addproduct(ShopViewModel shop)
         {
@@ -64,7 +64,7 @@ namespace Mall_Managment_System.Controllers
 
             return RedirectToAction("index");
         }
-
+ 
         public IActionResult Edit(int id)
         {
             var shop = shop_context.Shops.Find(id);
@@ -88,7 +88,7 @@ namespace Mall_Managment_System.Controllers
             return View(shopViewModel);
         }
 
-
+    
         [HttpPost]
         public IActionResult Edit(int id, ShopViewModel shopView)
         {
@@ -137,6 +137,7 @@ namespace Mall_Managment_System.Controllers
             return RedirectToAction("Index");
         }
 
+        [Authorize(Roles = "1")]
         public IActionResult Delete(int id)
         {
             var shop = shop_context.Shops.Find(id);
