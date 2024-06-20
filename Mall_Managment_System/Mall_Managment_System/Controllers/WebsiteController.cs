@@ -63,30 +63,30 @@ namespace Mall_Managment_System.Controllers
 			var data = user_context.Movies.FirstOrDefault(x => x.Id == id);
 			return View(data);
 		}
-		//public IActionResult Booking(int id)
-		//{
-		//    var data = user_context.Movies.FirstOrDefault(x => x.Id ==id );
+		public IActionResult Booking(int id)
+		{
+			var data = user_context.Movies.FirstOrDefault(x => x.Id == id);
 
-		//    return View(data);
-		//}
+			return View(data);
+		}
 
 
 		//[AllowAnonymous]
 		//[HttpPost]
-		public IActionResult Booking()
-        {
-            //var movie = user_context.Movies.FirstOrDefault(x => x.Id == id);
-            //if (movie == null)
-            //{
-            //    // Handle the case where the movie is not found
-            //    return NotFound();
-            //}
+		//public IActionResult Booking()
+		//      {
+		//var movie = user_context.Movies.FirstOrDefault(x => x.Id == id);
+		//if (movie == null)
+		//{
+		//    // Handle the case where the movie is not found
+		//    return NotFound();
+		//}
 
-            //// Pass the movie data using ViewBag or ViewData
-            //ViewBag.Movie = movie;
+		//// Pass the movie data using ViewBag or ViewData
+		//ViewBag.Movie = movie;
 
-            return View();
-        }
+		//    return View();
+		//}
 
 		public IActionResult Feedback()
 		{
@@ -95,28 +95,27 @@ namespace Mall_Managment_System.Controllers
 		}
 
 
-
-
 		[HttpPost]
         public IActionResult Feedback(Feedback feedback)
         {
 
             Feedback Feedback = new Feedback
             {
-            UserId=feedback.UserId, 
+         //   UserId=feedback.UserId, 
 			Environment=feedback.Environment,
 			Rating=feedback.Rating,
 			Message= feedback.Message,
 			FeedbackDate= feedback.FeedbackDate
-			
 
             };
 
             user_context.Feedback.Add(feedback);
             user_context.SaveChanges();
-            ViewBag.success = "Recoard inserted";
-
-            return RedirectToAction("Feedback");
+            ViewBag.success = "Thank you for give the feedback";
+            ModelState.Clear();
+            //  return RedirectToAction("Index");
+            // return RedirectToAction("Feedback");
+            return View();
         }
 
 

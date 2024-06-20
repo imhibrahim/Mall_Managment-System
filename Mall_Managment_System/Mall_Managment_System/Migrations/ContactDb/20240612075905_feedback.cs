@@ -17,7 +17,6 @@ namespace Mall_Managment_System.Migrations.ContactDb
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    UserId = table.Column<int>(type: "int", nullable: false),
                     Environment = table.Column<string>(type: "varchar(200)", nullable: false),
                     Rating = table.Column<int>(type: "int", nullable: false),
                     Message = table.Column<string>(type: "varchar(max)", nullable: false),
@@ -26,18 +25,15 @@ namespace Mall_Managment_System.Migrations.ContactDb
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Feedback", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Feedback_Users_UserId",
-                        column: x => x.UserId,
-                        principalTable: "Users",
-                        principalColumn: "Userid",
-                        onDelete: ReferentialAction.Cascade);
+                    //table.ForeignKey(
+                    //    name: "FK_Feedback_Users_UserId",
+                    //    column: x => x.UserId,
+                    //    principalTable: "Users",
+                    //    principalColumn: "Userid",
+                    //    onDelete: ReferentialAction.Cascade);
                 });
 
-            migrationBuilder.CreateIndex(
-                name: "IX_Feedback_UserId",
-                table: "Feedback",
-                column: "UserId");
+
         }
 
         /// <inheritdoc />

@@ -20,9 +20,9 @@
                 <table class="table table-hover">
                     <thead class="text-white">
         <tr>
-                            <th scope="col">
+                     @*        <th scope="col">
                 @Html.DisplayNameFor(model => model.users)
-            </th>
+            </th> *@
                             <th scope="col">
                 @Html.DisplayNameFor(model => model.Environment)
             </th>
@@ -41,9 +41,9 @@
                     <tbody class="text-white-50">
 @foreach (var item in Model) {
         <tr>
-                                <td scope="row">
+                      @*           <td scope="row">
                 @Html.DisplayFor(modelItem => item.users.Email)
-            </td>
+            </td> *@
                                 <td scope="row">
                 @Html.DisplayFor(modelItem => item.Environment)
             </td>

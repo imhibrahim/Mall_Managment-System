@@ -8,11 +8,6 @@ namespace Mall_Managment_System.Models
 		[Key]
 		public int Id { get; set; }
 
-		[ForeignKey("users")]
-		public int UserId { get; set; }
-		public Users users { get; set; }
-
-
 		[Column("Environment", TypeName = "varchar(200)")]
 		public string Environment { get; set; }
 

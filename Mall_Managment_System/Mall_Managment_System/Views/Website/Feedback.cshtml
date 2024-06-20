@@ -6,10 +6,17 @@
 @{
     Layout = "/Views/Shared/layouts.cshtml";
     var feedback = ViewBag.feedback as Mall_Managment_System.Models.Users;
-	var email = ViewBag.Email as String;
-
-  
-
+    var email = ViewBag.Email as String;
+    ViewBag.Title = "Your Page Title";
+}
+ 
+@if (!string.IsNullOrEmpty(ViewBag.success))
+{
+    <div style="margin: 10px; text-align: center;">
+        <div class="alert alert-primary" role="alert" style="text-align: center;">
+            @ViewBag.success
+        </div>
+    </div>
 }
 
 <div class="container">
@@ -80,7 +87,7 @@
                     <span asp-validation-for="FeedbackDate" class="text-danger"></span>
                 </div>
                 <div class="form-group w-100">
-                    <input type="submit" value="Create" class="btn btn-primary" />
+                    <input type="submit" value="Create" class="btn btn-primary pointer" />
                 </div>
             </form>
         </div>
