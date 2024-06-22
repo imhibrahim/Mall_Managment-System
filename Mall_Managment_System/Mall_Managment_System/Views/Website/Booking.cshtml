@@ -1,33 +1,49 @@
 ﻿@model Mall_Managment_System.Models.Booking
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
 
 @{
     Layout = "/Views/Shared/layouts.cshtml";
-        var movie = ViewBag.Movie as Mall_Managment_System.Models.Movies;
+    var movie = ViewBag.Movie as Mall_Managment_System.Models.Movies;
+    var email = ViewBag.Email as String;
 }
 
 <div class="container">
     <div class="row">
         <div class="col-md-8">
-
-            <form asp-action="Booking">
+            <form asp-action="Booking" method="post">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <div class="form-group">
-                    
-                        @if (movie != null)
-                        {
-                            <h3>Movie Name : @movie.MovieName</h3>
-                          
-                        }
+
+                <div class="col-md-12">
+                    @if (HttpContextAccessor.HttpContext.User.Identity.IsAuthenticated)
+                    {
+                        <h5>Your E-Mail is : @HttpContextAccessor.HttpContext.User.Identity.Name</h5>
+                        <input type="hidden" asp-for="User_Email" value=" @HttpContextAccessor.HttpContext.User.Identity.Name" />
+                    }
+                    else
+                    {
+                        <h5 class="text-danger">Please create an account first.<br /> Then you can book this movie.</h5>
+                    }
                 </div>
-           
+
+                <div class="form-group">
+                    @if (movie != null)
+                    {
+                        <h3>Movie Name : @movie.MovieName</h3>
+                        <input type="hidden" asp-for="Movie_Name" value="@movie.MovieName" />
+                    }
+                </div>
+
                 <div class="form-group">
                     <label asp-for="Booking_Date" class="control-label"></label>
                     <input asp-for="Booking_Date" class="form-control" />
                     <span asp-validation-for="Booking_Date" class="text-danger"></span>
                 </div>
+
                 <div class="form-group">
-                    <h5>Available Sets : @movie.AvailableSeats</h5>
+                    <h5>Available Seats : @movie.AvailableSeats</h5>
                 </div>
+
                 <div class="form-group">
                     <label asp-for="Booking_sets" class="control-label"></label>
                     <input asp-for="Booking_sets" class="form-control" />
@@ -39,9 +55,5 @@
                 </div>
             </form>
         </div>
-
     </div>
-
-
 </div>
-

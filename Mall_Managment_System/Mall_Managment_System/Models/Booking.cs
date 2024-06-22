@@ -8,13 +8,13 @@ namespace Mall_Managment_System.Models
 		[Key]
 		public int Id { get; set; }
 
-		[ForeignKey("movies")]
-		public int MovieId { get; set; }
-		public Movies movies { get; set; } // Navigation property
+		
+		public string Movie_Name { get; set; }
+	
 
-		[ForeignKey("users")]
-		public int UserId { get; set; }
-		public Users users { get; set; } // Navigation property
+	
+		public string User_Email { get; set; }
+	
 
 		[Column("Booking_Date")]
 		[Required]

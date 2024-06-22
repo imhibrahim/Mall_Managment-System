@@ -47,8 +47,7 @@ namespace Mall_Managment_System.Controllers
 		}
 
 
-        //[AllowAnonymous]
-        //[HttpPost]
+      
 
         public IActionResult Movies()
 		{
@@ -63,32 +62,53 @@ namespace Mall_Managment_System.Controllers
 			var data = user_context.Movies.FirstOrDefault(x => x.Id == id);
 			return View(data);
 		}
-		public IActionResult Booking(int id)
-		{
-			var data = user_context.Movies.FirstOrDefault(x => x.Id == id);
-
-			return View(data);
-		}
 
 
-		//[AllowAnonymous]
-		//[HttpPost]
-		//public IActionResult Booking()
-		//      {
-		//var movie = user_context.Movies.FirstOrDefault(x => x.Id == id);
-		//if (movie == null)
-		//{
-		//    // Handle the case where the movie is not found
-		//    return NotFound();
-		//}
 
-		//// Pass the movie data using ViewBag or ViewData
-		//ViewBag.Movie = movie;
+        public IActionResult Booking(int id)
+        {
+            var movie = user_context.Movies.FirstOrDefault(x => x.Id == id);
+            if (movie == null)
+            {
+                return NotFound();
+            }
 
-		//    return View();
-		//}
+            // Pass the movie data using ViewBag
+            ViewBag.Movie = movie;
+            ViewBag.Email = HttpContext.User.Identity.Name; // Assuming you want to use the authenticated user's email
 
-		public IActionResult Feedback()
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Booking(Booking booking)
+        {
+
+            Booking Booking = new Booking
+            {
+				Movie_Name = booking.Movie_Name,
+				User_Email= booking.User_Email,
+				Booking_Date=booking.Booking_Date,
+				Booking_sets=booking.Booking_sets,
+				Number_Tickets=1212121
+            };
+
+            user_context.Booking.Add(booking);
+            user_context.SaveChanges();
+            ViewBag.success = "Thank you for give the feedback";
+            ModelState.Clear();
+           
+            return View();
+        }
+
+
+
+
+
+
+
+
+        public IActionResult Feedback()
 		{
 
 			return View();
@@ -113,8 +133,7 @@ namespace Mall_Managment_System.Controllers
             user_context.SaveChanges();
             ViewBag.success = "Thank you for give the feedback";
             ModelState.Clear();
-            //  return RedirectToAction("Index");
-            // return RedirectToAction("Feedback");
+
             return View();
         }
 

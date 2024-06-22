@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mall_Managment_System")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+631e35734eb53ec9df3ac6249c6fe5284d8fc752")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da2c3d84c761fee5aeada860532c0c02691dc810")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mall_Managment_System")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mall_Managment_System")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
