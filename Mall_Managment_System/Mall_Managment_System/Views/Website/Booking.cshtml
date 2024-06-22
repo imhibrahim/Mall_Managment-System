@@ -5,9 +5,21 @@
 @{
     Layout = "/Views/Shared/layouts.cshtml";
     var movie = ViewBag.Movie as Mall_Managment_System.Models.Movies;
-    var email = ViewBag.Email as String;
+   
 }
 
+@if (!string.IsNullOrEmpty(ViewBag.success))
+{
+    
+    <div style="margin: 10px; text-align: center;">
+        <div class="alert alert-success" role="alert" style="text-align: center;">
+            <h3>Thank you for booking this movie.<br />
+                This is your ticket number : <span class="text-danger"> @ViewBag.success.</span><br />
+                When you come at the next time,
+                take your ticket number with you so that you do not face any problem.</h3>
+        </div>
+    </div>
+}
 <div class="container">
     <div class="row">
         <div class="col-md-8">
@@ -40,9 +52,6 @@
                     <span asp-validation-for="Booking_Date" class="text-danger"></span>
                 </div>
 
-                <div class="form-group">
-                    <h5>Available Seats : @movie.AvailableSeats</h5>
-                </div>
 
                 <div class="form-group">
                     <label asp-for="Booking_sets" class="control-label"></label>

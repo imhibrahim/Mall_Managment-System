@@ -15,6 +15,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
+using Mall_Managment_System.Migrations;
 
 
 
@@ -80,35 +81,38 @@ namespace Mall_Managment_System.Controllers
             return View();
         }
 
-		[HttpPost]
-		public IActionResult Booking(Booking booking)
-		{
+        [HttpPost]
+        public IActionResult Booking(Booking booking)
+        {
+            string TicketNumber = Guid.NewGuid().ToString();
 
-			Booking Booking = new Booking
-			{
-				Movie_Name = booking.Movie_Name,
-				User_Email = booking.User_Email,
-				Booking_Date = booking.Booking_Date,
-				Booking_sets = booking.Booking_sets,
-				Number_Tickets = "121212"
-			};
+            Booking newBooking = new Booking
+            {
+                Movie_Name = booking.Movie_Name,
+                User_Email = booking.User_Email,
+                Booking_Date = booking.Booking_Date,
+                Booking_sets = booking.Booking_sets,
+                Number_Tickets = TicketNumber
+            };
 
-			user_context.Booking.Add(booking);
-			user_context.SaveChanges();
-			ViewBag.success = "Thank you for give the feedback";
-			ModelState.Clear();
+            user_context.Booking.Add(newBooking);
+            user_context.SaveChanges();
 
-			return View();
-		}
+            ViewBag.success = TicketNumber;
+            ModelState.Clear();
 
-
-
-
+            return View();
+        }
 
 
 
 
-		public IActionResult Feedback()
+
+
+
+
+
+        public IActionResult Feedback()
 		{
 
 			return View();
