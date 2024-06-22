@@ -31,7 +31,7 @@
 						<a href="" class="project__image"><img src="@Url.Content("~/images/" + item.Image)" width=600 height=400 alt=""></a>
 						<div class="project__detail">
 							<h2 class="project__title"><a href="#">@Html.DisplayFor(modelItem => item.Name)</a></h2>
-							<small class="project__category"><a asp-action="Details" asp-route-id="@item.ID">Details</a></small>
+							<small class="project__category"><a asp-action="FoodCourtDetails" asp-route-id="@item.ID">Details</a></small>
 						</div>
 					</div>
 				</div>

@@ -101,7 +101,7 @@
 
 							@if (HttpContextAccessor.HttpContext.User.Identity.IsAuthenticated)
 							{
-								<li>@HttpContextAccessor.HttpContext.User.Identity.Name</li>
+								<li class="text-success fw-bolder">@HttpContextAccessor.HttpContext.User.Identity.Name</li>
 								<li>
 									<form asp-action="Logout" asp-controller="Website" method="post">
 										<button type="submit">Logout</button>

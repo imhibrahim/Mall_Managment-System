@@ -160,10 +160,11 @@ namespace Mall_Managment_System.Controllers
 		}
 
 
-		public IActionResult ShopDetails()
+		public IActionResult ShopDetails(int id)
 		{
-		
-			return View();
+            var data = user_context.Shops.FirstOrDefault(x => x.ID == id);
+            return View(data);
+         
 		}
 
 		public IActionResult Shopitem()
@@ -174,10 +175,15 @@ namespace Mall_Managment_System.Controllers
 
 		public IActionResult FoodCourt()
 		{
-			var court = user_context.FoodCourt.ToList();
-			return View(court);
+            return View(user_context.FoodCourt.ToList());
+            
 		}
-		public IActionResult Fooditem()
+        public IActionResult FoodCourtDetails(int id)
+        {
+            var data = user_context.FoodCourt.FirstOrDefault(x => x.ID == id);
+            return View(data);
+        }
+        public IActionResult Fooditem()
 		{
 			var fooditem = user_context.FoodItems.ToList();
 			return View(fooditem);

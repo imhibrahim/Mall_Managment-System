@@ -1,0 +1,46 @@
+﻿@model Mall_Managment_System.Models.Foodcourt
+@using Mall_Managment_System.Migrations.ItemDb
+
+
+
+@{
+    Layout = "/Views/Shared/layouts.cshtml";
+    var item = ViewBag.Item as Mall_Managment_System.Models.Items;
+}
+}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+
+            <h1 class="mtext-105 cl2 txt-center p-b-30">
+               Food Court Details
+            </h1>
+
+            <div>
+
+                <a class="btn btn-outline-info mb-2" asp-action="FoodCourt">Back to List</a>
+            </div>
+
+            <div class="row text-center">
+
+                <div class="col-md-6 border">
+                    <img src="~/images/@Html.DisplayFor(model => model.Image)" class="w-100" />
+
+                </div>
+
+
+                <div class="col-md-6">
+
+                    <h2>Court Name  @Html.DisplayFor(model => model.Name)</h2>
+                    <p><b>Description</b>@Html.DisplayFor(model => model.Description)</p>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+</div>

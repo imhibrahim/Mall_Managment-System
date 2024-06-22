@@ -1,4 +1,5 @@
 ﻿@model Mall_Managment_System.Models.Shops
+@using Mall_Managment_System.Migrations.ItemDb
 
 
 
@@ -24,6 +25,7 @@
 
                 <div class="col-md-6 border">
                     <img src="~/images/@Html.DisplayFor(model => model.Image)" class="w-100" />
+                   
                 </div>
 
 
@@ -38,15 +40,7 @@
           </div>
 
     </div>
-    <div class="row">
-        <h1>shops items</h1>
-            @if (item != null)
-            {
-                <h3>shop item Name : @item.Description</h3>
-
-            }
-
-    </div>
+  
 
 </div>
 </div>
