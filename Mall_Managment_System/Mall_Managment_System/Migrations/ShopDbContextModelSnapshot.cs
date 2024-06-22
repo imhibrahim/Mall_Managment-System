@@ -39,21 +39,20 @@ namespace Mall_Managment_System.Migrations
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("Booking_sets");
 
-                    b.Property<int>("MovieId")
-                        .HasColumnType("int");
+                    b.Property<string>("Movie_Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Number_Tickets")
-                        .HasColumnType("int")
+                    b.Property<string>("Number_Tickets")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
                         .HasColumnName("Number_Tickets");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
+                    b.Property<string>("User_Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("MovieId");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("Booking");
                 });
@@ -117,12 +116,7 @@ namespace Mall_Managment_System.Migrations
                         .HasColumnType("int")
                         .HasColumnName("Rating");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("Feedback");
                 });
@@ -367,36 +361,6 @@ namespace Mall_Managment_System.Migrations
                     b.HasKey("Userid");
 
                     b.ToTable("Users");
-                });
-
-            modelBuilder.Entity("Mall_Managment_System.Models.Booking", b =>
-                {
-                    b.HasOne("Mall_Managment_System.Models.Movies", "movies")
-                        .WithMany()
-                        .HasForeignKey("MovieId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Mall_Managment_System.Models.Users", "users")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("movies");
-
-                    b.Navigation("users");
-                });
-
-            modelBuilder.Entity("Mall_Managment_System.Models.Feedback", b =>
-                {
-                    b.HasOne("Mall_Managment_System.Models.Users", "users")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("users");
                 });
 
             modelBuilder.Entity("Mall_Managment_System.Models.FoodItems", b =>

@@ -80,35 +80,35 @@ namespace Mall_Managment_System.Controllers
             return View();
         }
 
-        [HttpPost]
-        public IActionResult Booking(Booking booking)
-        {
+		[HttpPost]
+		public IActionResult Booking(Booking booking)
+		{
 
-            Booking Booking = new Booking
-            {
+			Booking Booking = new Booking
+			{
 				Movie_Name = booking.Movie_Name,
-				User_Email= booking.User_Email,
-				Booking_Date=booking.Booking_Date,
-				Booking_sets=booking.Booking_sets,
-				Number_Tickets=1212121
-            };
+				User_Email = booking.User_Email,
+				Booking_Date = booking.Booking_Date,
+				Booking_sets = booking.Booking_sets,
+				Number_Tickets = "121212"
+			};
 
-            user_context.Booking.Add(booking);
-            user_context.SaveChanges();
-            ViewBag.success = "Thank you for give the feedback";
-            ModelState.Clear();
-           
-            return View();
-        }
+			user_context.Booking.Add(booking);
+			user_context.SaveChanges();
+			ViewBag.success = "Thank you for give the feedback";
+			ModelState.Clear();
 
-
+			return View();
+		}
 
 
 
 
 
 
-        public IActionResult Feedback()
+
+
+		public IActionResult Feedback()
 		{
 
 			return View();

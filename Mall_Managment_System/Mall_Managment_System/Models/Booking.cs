@@ -10,11 +10,8 @@ namespace Mall_Managment_System.Models
 
 		
 		public string Movie_Name { get; set; }
-	
 
-	
 		public string User_Email { get; set; }
-	
 
 		[Column("Booking_Date")]
 		[Required]
@@ -25,8 +22,8 @@ namespace Mall_Managment_System.Models
         public string Booking_sets { get; set; }
 
         [Column("Number_Tickets")]
-		[Required]
-		public int Number_Tickets { get; set; }
+		
+		public string Number_Tickets { get; set; }
 	}
 
 
