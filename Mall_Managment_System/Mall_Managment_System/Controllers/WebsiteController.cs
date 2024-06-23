@@ -80,7 +80,7 @@ namespace Mall_Managment_System.Controllers
 
             return View();
         }
-
+        [Authorize(Roles = "0")]
         [HttpPost]
         public IActionResult Booking(Booking booking)
         {
@@ -118,8 +118,8 @@ namespace Mall_Managment_System.Controllers
 			return View();
 		}
 
-
-		[HttpPost]
+        [Authorize(Roles = "0")]
+        [HttpPost]
         public IActionResult Feedback(Feedback feedback)
         {
 
@@ -159,8 +159,9 @@ namespace Mall_Managment_System.Controllers
 			return View(user_context.Shops.ToList());
 		}
 
-
-		public IActionResult ShopDetails(int id)
+        [Authorize]
+       
+        public IActionResult ShopDetails(int id)
 		{
             var data = user_context.Shops.FirstOrDefault(x => x.ID == id);
             return View(data);

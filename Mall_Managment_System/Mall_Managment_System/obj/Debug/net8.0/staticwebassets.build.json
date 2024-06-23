@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "i2vHuwDvG9+pPBRztlihwCABuTYue7TRpKhGDDEt7fM=",
+  "Hash": "6sxH2gpwX6vJLZDUQ5Cz4p1fNk1HHukrMyHOVTAn+V8=",
   "Source": "Mall_Managment_System",
   "BasePath": "_content/Mall_Managment_System",
   "Mode": "Default",
@@ -4064,25 +4064,6 @@
       "OriginalItemSpec": "wwwroot\\images\\e6d695c3-722a-41dd-a479-846c61e2253a_caption (3).jpg"
     },
     {
-      "Identity": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\e8d2a490-afe7-42f4-93a1-03e9f30f2b32.webp",
-      "SourceId": "Mall_Managment_System",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\",
-      "BasePath": "_content/Mall_Managment_System",
-      "RelativePath": "images/e8d2a490-afe7-42f4-93a1-03e9f30f2b32.webp",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\e8d2a490-afe7-42f4-93a1-03e9f30f2b32.webp"
-    },
-    {
       "Identity": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\ea03ccd5-43c1-423e-9559-5bdf58ad08e9_74218192-306x393.jpg",
       "SourceId": "Mall_Managment_System",
       "SourceType": "Discovered",
@@ -4119,6 +4100,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\ebce2bc0-5412-4a88-8e3b-2835bfde5f37_photo3jpg.jpg"
+    },
+    {
+      "Identity": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\ecac6fb7-03d4-4ad0-893c-7a2f53be5966.jpg",
+      "SourceId": "Mall_Managment_System",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\",
+      "BasePath": "_content/Mall_Managment_System",
+      "RelativePath": "images/ecac6fb7-03d4-4ad0-893c-7a2f53be5966.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ecac6fb7-03d4-4ad0-893c-7a2f53be5966.jpg"
     },
     {
       "Identity": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\wwwroot\\images\\ee3aeb44-fad5-457e-a41d-704957d9c785_Tiger-3-4-306x393.jpg",

@@ -58,9 +58,9 @@
                         <h6 class="mb-0">Muhammad Ibrahim</h6>
                         <span>Admin</span>
                     </div>
-                </div>
+                </div>x
                 <div class="navbar-nav w-100">
-                    <a href="index.html" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+                    <a asp-action="index" asp-controller="Home" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
 
 
                     <a asp-controller="Shop" asp-action="index" class="nav-item nav-link"><i class="fa-solid fa-shop me-2"></i></i>Shops</a>
@@ -68,8 +68,8 @@
                     <a asp-controller="Booking" asp-action="index" class="nav-item nav-link"><i class="fa-solid fa-ticket me-2"></i>Bookings</a>
                     <a asp-controller="Gallery" asp-action="index" class="nav-item nav-link"><i class="fa-solid fa-photo-film me-2"></i>Gallery</a>
                     <a asp-controller="FoodCourt" asp-action="index" class="nav-item nav-link"><i class="fa-solid fa-utensils me-2"></i>Food_Courts</a>
-                    <a asp-controller="Item" asp-action="index" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Items</a>
-                    <a asp-controller="FoodItem" asp-action="index" class="nav-item nav-link"><i class="fa-solid fa-utensils me-2"></i>Food_Items</a>
+                  @*  <a asp-controller="Item" asp-action="index" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Items</a>
+                    <a asp-controller="FoodItem" asp-action="index" class="nav-item nav-link"><i class="fa-solid fa-utensils me-2"></i>Food_Items</a> *@
                     <a asp-controller="Contact" asp-action="index" class="nav-item nav-link"><i class="fa-solid fa-address-book me-2"></i>Contact</a>
                     <a asp-controller="Feedback" asp-action="index" class="nav-item nav-link"><i class="fa-solid fa-message me-2"></i>FeedBack</a>
                     <a asp-controller="User" asp-action="index" class="nav-item nav-link"><i class="fa-solid fa-users me-2"></i>Users</a>
@@ -130,29 +130,11 @@
                             <a href="#" class="dropdown-item text-center">See all message</a>
                         </div>
                     </div>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
-                            <i class="fa fa-bell me-lg-2"></i>
-                            <span class="d-none d-lg-inline-flex">Notificatin</span>
+                    <div class="nav-item ">
+                        <a asp-action="index" asp-controller="Website" class="nav-link dropdown-toggle">
+                           Go To Site
                         </a>
-                        <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
-                            <a href="#" class="dropdown-item">
-                                <h6 class="fw-normal mb-0">Profile updated</h6>
-                                <small>15 minutes ago</small>
-                            </a>
-                            <hr class="dropdown-divider">
-                            <a href="#" class="dropdown-item">
-                                <h6 class="fw-normal mb-0">New user added</h6>
-                                <small>15 minutes ago</small>
-                            </a>
-                            <hr class="dropdown-divider">
-                            <a href="#" class="dropdown-item">
-                                <h6 class="fw-normal mb-0">Password changed</h6>
-                                <small>15 minutes ago</small>
-                            </a>
-                            <hr class="dropdown-divider">
-                            <a href="#" class="dropdown-item text-center">See all notifications</a>
-                        </div>
+                       
                     </div>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">

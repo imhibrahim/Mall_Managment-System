@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Mall_Managment-System\Mall_Managment_System\Mall_Managment_System
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Booking/details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xkZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Mall_Managment-System/Mall_Managment_System/Mall_Managment_System/Views/Booking/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

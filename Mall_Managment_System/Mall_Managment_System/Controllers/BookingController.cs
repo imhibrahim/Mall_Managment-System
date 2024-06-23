@@ -25,14 +25,12 @@ namespace Mall_Managment_System.Controllers
             return View(Booking_context.Booking.ToList());
         }
 
+        public IActionResult details(int id)
+        {
 
-        //public IActionResult Index()
-        //{ //Fetch bookings with related user data
-        //    var bookings = Booking_context.Booking.Include(b => b.users);
-        //         //  Include related user data
-        //       //  .Include(b => b.Booking);
-        //         //Include related movie data if needed .ToList();
-        //    return View(bookings); }
+            var data = Booking_context.Booking.FirstOrDefault(x => x.Id == id);
+            return View(data);
+        }
 
 
 
