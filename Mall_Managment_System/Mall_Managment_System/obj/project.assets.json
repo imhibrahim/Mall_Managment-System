@@ -8136,24 +8136,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Muhammad Ibrahim\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\icon\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\Mall_Managment_System.csproj",
+      "projectUniqueName": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\Mall_Managment_System.csproj",
       "projectName": "Mall_Managment_System",
-      "projectPath": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\Mall_Managment_System.csproj",
-      "packagesPath": "C:\\Users\\Muhammad Ibrahim\\.nuget\\packages\\",
-      "outputPath": "D:\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\obj\\",
+      "projectPath": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\Mall_Managment_System.csproj",
+      "packagesPath": "C:\\Users\\icon\\.nuget\\packages\\",
+      "outputPath": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Muhammad Ibrahim\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\icon\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8174,6 +8169,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -8228,7 +8228,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

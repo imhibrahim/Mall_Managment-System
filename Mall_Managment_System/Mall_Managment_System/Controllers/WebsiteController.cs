@@ -100,8 +100,8 @@ namespace Mall_Managment_System.Controllers
 
             ViewBag.success = TicketNumber;
             ModelState.Clear();
-
-            return View();
+			
+        return View();
         }
 
 

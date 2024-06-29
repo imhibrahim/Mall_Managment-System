@@ -24,10 +24,6 @@ builder.Services.AddSession(options =>
 	options.Cookie.IsEssential = true;
 });
 
-
-
-
-
 // Add cookie authentication
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
 	.AddCookie(options =>
@@ -36,10 +32,6 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 		options.LogoutPath = "/Website/Logout";
 		options.AccessDeniedPath = "/Website/index";
 	});
-
-
-
-
 
 
 var provide = builder.Services.BuildServiceProvider();

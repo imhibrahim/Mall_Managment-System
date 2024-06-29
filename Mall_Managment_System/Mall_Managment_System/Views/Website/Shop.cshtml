@@ -24,12 +24,10 @@
 			<div class="col-md-4 mb-3 text-center ">
 				<hr />
 				<hr />
-				<hr />
 
-
-				<div class="project">
+				<div class="project w-100">
 					<div class="project__card">
-						<a href="" class="project__image"><img src="@Url.Content("~/images/" + item.Image)" width=600 height=400 alt=""></a>
+						<a href="" class="project__image"><img src="@Url.Content("~/images/" + item.Image)" width=900 height=800 alt=""></a>
 						<div class="project__detail">
 							<h2 class="project__title"><a href="#">@Html.DisplayFor(modelItem => item.Name)</a></h2>
 							<small class="project__category"><a asp-action="ShopDetails" asp-route-id="@item.ID">Details</a></small>

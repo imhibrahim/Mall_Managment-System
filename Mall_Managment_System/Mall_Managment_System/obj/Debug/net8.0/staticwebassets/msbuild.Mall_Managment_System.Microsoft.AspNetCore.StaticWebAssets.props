@@ -1792,6 +1792,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\01b80570-9a89-49ff-839a-99e2197ab1bb_15.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/01b80570-9a89-49ff-839a-99e2197ab1bb_15.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\01b80570-9a89-49ff-839a-99e2197ab1bb_15.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\05db8205-bac6-4c2a-a0e4-2708cd0124e1_War-6-306x393.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Mall_Managment_System</SourceId>
@@ -1839,6 +1855,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\0869cb47-a0f0-4dc7-9c2c-be37fe3e77c5.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\09881d32-c248-4390-aad4-c5141eede3fc_IMG_1564.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/09881d32-c248-4390-aad4-c5141eede3fc_IMG_1564.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\09881d32-c248-4390-aad4-c5141eede3fc_IMG_1564.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\09966e92-2a42-49e2-904c-6c9670a87f56_Image20240524101632.png))">
       <SourceType>Package</SourceType>
@@ -2032,6 +2064,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\15b15154-bacf-4f8e-a976-d147f53bff71_89649841-306x393.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\16647500-30e9-4ab7-843b-36bcfd6a4ee8_IMG_2116.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/16647500-30e9-4ab7-843b-36bcfd6a4ee8_IMG_2116.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\16647500-30e9-4ab7-843b-36bcfd6a4ee8_IMG_2116.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\1ad0c8b9-f089-414d-b502-e8d88c7b5c89_m5.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/1ad0c8b9-f089-414d-b502-e8d88c7b5c89_m5.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\1ad0c8b9-f089-414d-b502-e8d88c7b5c89_m5.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\20d0b2fd-f5e2-4d54-89dd-3b3baf355f94_lyallpur-galleria.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Mall_Managment_System</SourceId>
@@ -2144,6 +2208,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\2951d5ee-942d-4933-b212-37161f8507ce_Jawan-12-306x393.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\2e88669a-1c77-48f5-be65-ed98345b53cf_shop 7.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/2e88669a-1c77-48f5-be65-ed98345b53cf_shop 7.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\2e88669a-1c77-48f5-be65-ed98345b53cf_shop 7.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\30b7ed49-f21a-44fc-a073-969529552b16_Simmba1-306x382.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Mall_Managment_System</SourceId>
@@ -2192,6 +2272,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\37c2728c-c32d-4e84-a40a-42b990e37421_Bahubali-2-The-Conclusion-306x393.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\3800b0ad-3252-4222-8732-7454a1b16eaf_3.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/3800b0ad-3252-4222-8732-7454a1b16eaf_3.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\3800b0ad-3252-4222-8732-7454a1b16eaf_3.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\39007e49-56cf-4cc8-9946-fbca2b7618af_m6.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/39007e49-56cf-4cc8-9946-fbca2b7618af_m6.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\39007e49-56cf-4cc8-9946-fbca2b7618af_m6.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\39d3efa2-feab-4db9-8ebb-ea52404bbffa_fazal-centre.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Mall_Managment_System</SourceId>
@@ -2223,6 +2335,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\3a0a5ea1-ed56-49e0-8277-7896d89c84e3_439543855-306x393.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\3a301177-4cef-4a77-8563-a383c5916674_delizia-FZ.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/3a301177-4cef-4a77-8563-a383c5916674_delizia-FZ.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\3a301177-4cef-4a77-8563-a383c5916674_delizia-FZ.webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\3d887e71-5167-415d-9b5c-0f50ccf0d709.jpg))">
       <SourceType>Package</SourceType>
@@ -2304,6 +2432,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\4660e99f-4231-4a2d-b0f7-9d4f2034555c_Race-3-16-306x393.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\470182f6-87f5-45e4-af38-af0fcfcff12f.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/470182f6-87f5-45e4-af38-af0fcfcff12f.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\470182f6-87f5-45e4-af38-af0fcfcff12f.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\48a96946-94fd-4530-9546-5d5978c61906_Drishyam-2-9-1.jpg_620-1-306x393.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Mall_Managment_System</SourceId>
@@ -2336,6 +2480,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\48caf34e-6fe0-4395-8b39-bdfc186c9e92_zengler.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\499c4ee9-fbb9-47ce-a1a9-059f675bf6fb_Whats-happening-Website-07.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/499c4ee9-fbb9-47ce-a1a9-059f675bf6fb_Whats-happening-Website-07.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\499c4ee9-fbb9-47ce-a1a9-059f675bf6fb_Whats-happening-Website-07.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\49f780b5-b25b-4066-8ad5-4b2b44805f7a_Image20240524101632.png))">
       <SourceType>Package</SourceType>
       <SourceId>Mall_Managment_System</SourceId>
@@ -2352,12 +2512,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\49f780b5-b25b-4066-8ad5-4b2b44805f7a_Image20240524101632.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\4b37fad2-d5b8-4c6a-ab00-5fb387fe16f7_WhatsApp Image 2024-05-17 at 00.33.06_5c637850.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\4e871b01-fd3a-4b78-9b2d-4371b5b3f822_calafornia-Pizza.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Mall_Managment_System</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Mall_Managment_System</BasePath>
-      <RelativePath>images/4b37fad2-d5b8-4c6a-ab00-5fb387fe16f7_WhatsApp Image 2024-05-17 at 00.33.06_5c637850.jpg</RelativePath>
+      <RelativePath>images/4e871b01-fd3a-4b78-9b2d-4371b5b3f822_calafornia-Pizza.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2366,7 +2526,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\4b37fad2-d5b8-4c6a-ab00-5fb387fe16f7_WhatsApp Image 2024-05-17 at 00.33.06_5c637850.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\4e871b01-fd3a-4b78-9b2d-4371b5b3f822_calafornia-Pizza.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\4f48403f-4e13-4516-8835-eb001dcbc8a4_433500130-306x354.jpg))">
       <SourceType>Package</SourceType>
@@ -2416,6 +2576,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\526772d7-de6a-4e73-8b4e-2937549fcb8c_a-well-designed-shopping.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\547e1d9c-c1f5-4eaf-a1f8-9030383e76a5_789655.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/547e1d9c-c1f5-4eaf-a1f8-9030383e76a5_789655.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\547e1d9c-c1f5-4eaf-a1f8-9030383e76a5_789655.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\5753587a-b3dd-40c3-a2f0-7b4499cab007_Pathaan-10-1-306x393.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Mall_Managment_System</SourceId>
@@ -2431,6 +2607,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\5753587a-b3dd-40c3-a2f0-7b4499cab007_Pathaan-10-1-306x393.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\5c332df1-0470-45fc-8a67-eb3ae3a3e0cc_m4.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/5c332df1-0470-45fc-8a67-eb3ae3a3e0cc_m4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\5c332df1-0470-45fc-8a67-eb3ae3a3e0cc_m4.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\5cd9d6d3-e6a2-4b67-861c-734ecea2ebf9_img-20171105-wa0016-largejpg.jpg))">
       <SourceType>Package</SourceType>
@@ -2543,6 +2735,54 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\674f884a-8973-4cfe-a170-81a2f3814869_mall-atrium (1).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\68b36897-3473-4fc0-80c3-2142b658318b_shop1.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/68b36897-3473-4fc0-80c3-2142b658318b_shop1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\68b36897-3473-4fc0-80c3-2142b658318b_shop1.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\6a1d2769-5856-411c-84dc-6ef3e9b7457d_IMG_1339.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/6a1d2769-5856-411c-84dc-6ef3e9b7457d_IMG_1339.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\6a1d2769-5856-411c-84dc-6ef3e9b7457d_IMG_1339.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\6ae434d5-83c9-4947-bea5-15d9e5ad2890_o-donut-FZ.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/6ae434d5-83c9-4947-bea5-15d9e5ad2890_o-donut-FZ.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\6ae434d5-83c9-4947-bea5-15d9e5ad2890_o-donut-FZ.webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\6c25b6ab-2ec5-4883-bb5e-193f26062eec.webp))">
       <SourceType>Package</SourceType>
@@ -2720,6 +2960,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\7d343a88-932e-40b9-84aa-58c06bf2babc_amanah-mall.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\7e3fda90-738a-413b-a2a2-c02e7f89f247_shop 4.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/7e3fda90-738a-413b-a2a2-c02e7f89f247_shop 4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\7e3fda90-738a-413b-a2a2-c02e7f89f247_shop 4.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\808be69c-c9ad-45a2-ac91-0302e536bf25_Dunki-19-306x393.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Mall_Managment_System</SourceId>
@@ -2767,6 +3023,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\861d784e-0167-46a3-bd2e-afca231f0907_Golmaal-Again-2-306x393.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\862f0037-cbb4-43b8-a6dd-c899661402f2_m10.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/862f0037-cbb4-43b8-a6dd-c899661402f2_m10.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\862f0037-cbb4-43b8-a6dd-c899661402f2_m10.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\8700c820-8d99-49b8-a683-aa7c44afa102_Image20240524101632.png))">
       <SourceType>Package</SourceType>
@@ -2831,6 +3103,70 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\8d175357-f7ef-439a-894a-1749cd0d73f1_caption (2).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\93d4962f-ab42-4805-aae7-277b9563ec02_15815.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/93d4962f-ab42-4805-aae7-277b9563ec02_15815.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\93d4962f-ab42-4805-aae7-277b9563ec02_15815.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\954d4d96-fffe-4c85-a1d5-a3ef8c0a4807_shop 5.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/954d4d96-fffe-4c85-a1d5-a3ef8c0a4807_shop 5.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\954d4d96-fffe-4c85-a1d5-a3ef8c0a4807_shop 5.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\9ae8667c-37c6-4858-8a26-a54eb3366bf1_Khaadi-Kanteen.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/9ae8667c-37c6-4858-8a26-a54eb3366bf1_Khaadi-Kanteen.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\9ae8667c-37c6-4858-8a26-a54eb3366bf1_Khaadi-Kanteen.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\9b2bfb15-6ac3-403d-be05-4a8bdb7408e8_m8.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/9b2bfb15-6ac3-403d-be05-4a8bdb7408e8_m8.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\9b2bfb15-6ac3-403d-be05-4a8bdb7408e8_m8.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\9bc4fbf0-3104-48be-9d12-8cb3798c2c8e_Uri-306x393.jpg))">
       <SourceType>Package</SourceType>
@@ -2944,6 +3280,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\aa2a2a75-a575-4f04-b9b7-8f2feca49f86_Animal-13-306x393.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\abd34f8f-105a-406b-9866-66709dee7039_shop 8.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/abd34f8f-105a-406b-9866-66709dee7039_shop 8.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\abd34f8f-105a-406b-9866-66709dee7039_shop 8.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\ac61a20c-070b-4d47-89ac-dbbf42ad4a82_Image20240524101632.png))">
       <SourceType>Package</SourceType>
       <SourceId>Mall_Managment_System</SourceId>
@@ -2991,6 +3343,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\af0dc340-d872-43d5-abfe-4000324adb32_photo6jpg.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\b5199230-8b0a-4168-a267-fc57206fb04c_Cocochan-Food-Zone.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/b5199230-8b0a-4168-a267-fc57206fb04c_Cocochan-Food-Zone.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\b5199230-8b0a-4168-a267-fc57206fb04c_Cocochan-Food-Zone.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\b554b90e-1d9b-48bb-92f3-12da8edf385f_gold-city-mall.jpg))">
       <SourceType>Package</SourceType>
@@ -3088,6 +3456,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\c293b428-17ea-47ea-9755-7b3bae07cc7c_Shaitaan-4-306x393.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\c46289a6-0446-47cb-af48-ca0dfc79de6e_6.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/c46289a6-0446-47cb-af48-ca0dfc79de6e_6.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\c46289a6-0446-47cb-af48-ca0dfc79de6e_6.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\c551272c-c282-469a-a38e-fe9e34c40c69_m7.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/c551272c-c282-469a-a38e-fe9e34c40c69_m7.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\c551272c-c282-469a-a38e-fe9e34c40c69_m7.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\c60858e5-6bf4-4102-bed9-cf60e71358ad_Image20240524101632.png))">
       <SourceType>Package</SourceType>
       <SourceId>Mall_Managment_System</SourceId>
@@ -3151,6 +3551,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\ce439463-b606-47fc-b08b-b8b4a65bdf29_emporium-mall-lahore.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\cf871454-f312-45a3-928f-7e32fbcacf0b_IMG_1339.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/cf871454-f312-45a3-928f-7e32fbcacf0b_IMG_1339.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\cf871454-f312-45a3-928f-7e32fbcacf0b_IMG_1339.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\d028ef53-7c5e-4e03-a059-d428fdfe5272_Image20240524101632.png))">
       <SourceType>Package</SourceType>
@@ -3296,6 +3712,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\e015f3c1-4d65-45cd-9407-1a9ef23f4118_mall-atrium.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\e061efea-5bb3-4c09-be4b-56ca084629f0_shop2.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/e061efea-5bb3-4c09-be4b-56ca084629f0_shop2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\e061efea-5bb3-4c09-be4b-56ca084629f0_shop2.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\e0b46e37-31e6-483b-8c62-aadebf3faad3_Image20240524101632.png))">
       <SourceType>Package</SourceType>
       <SourceId>Mall_Managment_System</SourceId>
@@ -3311,6 +3743,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\e0b46e37-31e6-483b-8c62-aadebf3faad3_Image20240524101632.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\e605a854-d5f6-4d43-9b13-e91aa7f8a0c3_IMG_1841.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/e605a854-d5f6-4d43-9b13-e91aa7f8a0c3_IMG_1841.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\e605a854-d5f6-4d43-9b13-e91aa7f8a0c3_IMG_1841.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\e65574b5-54f2-493c-9943-c6e1a54b6ae6_simply-sufi-emporium.jpg))">
       <SourceType>Package</SourceType>
@@ -3424,6 +3872,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\ef9308ac-305c-4010-98ba-075508f6370f_emerald-tower (4).jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\f08a3e30-0541-4072-87c5-aa29f07655b6_m9.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/f08a3e30-0541-4072-87c5-aa29f07655b6_m9.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\f08a3e30-0541-4072-87c5-aa29f07655b6_m9.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\f0c16f0d-28be-4984-baa5-c3a032fda371_83723409-306x393.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Mall_Managment_System</SourceId>
@@ -3455,6 +3919,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\f702f2af-a4ce-411a-9b50-e1120939552f_emerald-tower (3).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\fa437cd1-f068-4bdc-84c9-af6ed5141ee3_shop 9.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Mall_Managment_System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Mall_Managment_System</BasePath>
+      <RelativePath>images/fa437cd1-f068-4bdc-84c9-af6ed5141ee3_shop 9.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\fa437cd1-f068-4bdc-84c9-af6ed5141ee3_shop 9.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\fcffa4ad-9e69-418c-a9c2-f1cd7a40457f_about 1.webp))">
       <SourceType>Package</SourceType>

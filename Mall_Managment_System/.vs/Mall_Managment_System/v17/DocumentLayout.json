@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6FAFBFB3-39B3-4F1F-8DFC-63E619D1B367}|Mall_Managment_System\\Mall_Managment_System.csproj|e:\\dot net core project\\mall_managment-system\\mall_managment_system\\mall_managment_system\\controllers\\websitecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FAFBFB3-39B3-4F1F-8DFC-63E619D1B367}|Mall_Managment_System\\Mall_Managment_System.csproj|solutionrelative:mall_managment_system\\controllers\\websitecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FAFBFB3-39B3-4F1F-8DFC-63E619D1B367}|Mall_Managment_System\\Mall_Managment_System.csproj|e:\\dot net core project\\mall_managment-system\\mall_managment_system\\mall_managment_system\\views\\website\\moviedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6FAFBFB3-39B3-4F1F-8DFC-63E619D1B367}|Mall_Managment_System\\Mall_Managment_System.csproj|solutionrelative:mall_managment_system\\views\\website\\moviedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6FAFBFB3-39B3-4F1F-8DFC-63E619D1B367}|Mall_Managment_System\\Mall_Managment_System.csproj|e:\\dot net core project\\mall_managment-system\\mall_managment_system\\mall_managment_system\\views\\website\\booking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6FAFBFB3-39B3-4F1F-8DFC-63E619D1B367}|Mall_Managment_System\\Mall_Managment_System.csproj|solutionrelative:mall_managment_system\\views\\website\\booking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FAFBFB3-39B3-4F1F-8DFC-63E619D1B367}|Mall_Managment_System\\Mall_Managment_System.csproj|e:\\dot net core project\\mall_managment-system\\mall_managment_system\\mall_managment_system\\views\\website\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6FAFBFB3-39B3-4F1F-8DFC-63E619D1B367}|Mall_Managment_System\\Mall_Managment_System.csproj|solutionrelative:mall_managment_system\\views\\website\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6FAFBFB3-39B3-4F1F-8DFC-63E619D1B367}|Mall_Managment_System\\Mall_Managment_System.csproj|e:\\dot net core project\\mall_managment-system\\mall_managment_system\\mall_managment_system\\controllers\\websitecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FAFBFB3-39B3-4F1F-8DFC-63E619D1B367}|Mall_Managment_System\\Mall_Managment_System.csproj|solutionrelative:mall_managment_system\\controllers\\websitecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FAFBFB3-39B3-4F1F-8DFC-63E619D1B367}|Mall_Managment_System\\Mall_Managment_System.csproj|e:\\dot net core project\\mall_managment-system\\mall_managment_system\\mall_managment_system\\views\\feedback\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6FAFBFB3-39B3-4F1F-8DFC-63E619D1B367}|Mall_Managment_System\\Mall_Managment_System.csproj|solutionrelative:mall_managment_system\\views\\feedback\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6FAFBFB3-39B3-4F1F-8DFC-63E619D1B367}|Mall_Managment_System\\Mall_Managment_System.csproj|e:\\dot net core project\\mall_managment-system\\mall_managment_system\\mall_managment_system\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FAFBFB3-39B3-4F1F-8DFC-63E619D1B367}|Mall_Managment_System\\Mall_Managment_System.csproj|solutionrelative:mall_managment_system\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FAFBFB3-39B3-4F1F-8DFC-63E619D1B367}|Mall_Managment_System\\Mall_Managment_System.csproj|e:\\dot net core project\\mall_managment-system\\mall_managment_system\\mall_managment_system\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FAFBFB3-39B3-4F1F-8DFC-63E619D1B367}|Mall_Managment_System\\Mall_Managment_System.csproj|solutionrelative:mall_managment_system\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FAFBFB3-39B3-4F1F-8DFC-63E619D1B367}|Mall_Managment_System\\Mall_Managment_System.csproj|e:\\dot net core project\\mall_managment-system\\mall_managment_system\\mall_managment_system\\views\\website\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FAFBFB3-39B3-4F1F-8DFC-63E619D1B367}|Mall_Managment_System\\Mall_Managment_System.csproj|solutionrelative:mall_managment_system\\views\\website\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FAFBFB3-39B3-4F1F-8DFC-63E619D1B367}|Mall_Managment_System\\Mall_Managment_System.csproj|e:\\dot net core project\\mall_managment-system\\mall_managment_system\\mall_managment_system\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FAFBFB3-39B3-4F1F-8DFC-63E619D1B367}|Mall_Managment_System\\Mall_Managment_System.csproj|solutionrelative:mall_managment_system\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FAFBFB3-39B3-4F1F-8DFC-63E619D1B367}|Mall_Managment_System\\Mall_Managment_System.csproj|e:\\dot net core project\\mall_managment-system\\mall_managment_system\\mall_managment_system\\views\\website\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FAFBFB3-39B3-4F1F-8DFC-63E619D1B367}|Mall_Managment_System\\Mall_Managment_System.csproj|solutionrelative:mall_managment_system\\views\\website\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FAFBFB3-39B3-4F1F-8DFC-63E619D1B367}|Mall_Managment_System\\Mall_Managment_System.csproj|e:\\dot net core project\\mall_managment-system\\mall_managment_system\\mall_managment_system\\views\\website\\foodcourt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FAFBFB3-39B3-4F1F-8DFC-63E619D1B367}|Mall_Managment_System\\Mall_Managment_System.csproj|solutionrelative:mall_managment_system\\views\\website\\foodcourt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,93 +46,77 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\Views\\Website\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Mall_Managment_System\\Views\\Website\\Contact.cshtml",
+              "ToolTip": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\Views\\Website\\Contact.cshtml",
+              "RelativeToolTip": "Mall_Managment_System\\Views\\Website\\Contact.cshtml",
+              "ViewState": "AQIAACIAAAAAMzMzMzMrwDMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T18:12:14.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Booking.cshtml",
               "DocumentMoniker": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\Views\\Website\\Booking.cshtml",
               "RelativeDocumentMoniker": "Mall_Managment_System\\Views\\Website\\Booking.cshtml",
               "ToolTip": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\Views\\Website\\Booking.cshtml",
               "RelativeToolTip": "Mall_Managment_System\\Views\\Website\\Booking.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-20T18:40:28.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MovieDetails.cshtml",
-              "DocumentMoniker": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\Views\\Website\\MovieDetails.cshtml",
-              "RelativeDocumentMoniker": "Mall_Managment_System\\Views\\Website\\MovieDetails.cshtml",
-              "ToolTip": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\Views\\Website\\MovieDetails.cshtml",
-              "RelativeToolTip": "Mall_Managment_System\\Views\\Website\\MovieDetails.cshtml",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAACkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-20T18:40:01.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Feedback.cshtml",
-              "DocumentMoniker": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\Views\\Website\\Feedback.cshtml",
-              "RelativeDocumentMoniker": "Mall_Managment_System\\Views\\Website\\Feedback.cshtml",
-              "ToolTip": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\Views\\Website\\Feedback.cshtml",
-              "RelativeToolTip": "Mall_Managment_System\\Views\\Website\\Feedback.cshtml",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAmwFMAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-20T17:55:03.891Z",
+              "WhenOpened": "2024-06-29T18:02:48.419Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\Views\\Feedback\\Index.cshtml",
-              "RelativeDocumentMoniker": "Mall_Managment_System\\Views\\Feedback\\Index.cshtml",
-              "ToolTip": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\Views\\Feedback\\Index.cshtml",
-              "RelativeToolTip": "Mall_Managment_System\\Views\\Feedback\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAARAAAA",
+              "Title": "Shop.cshtml",
+              "DocumentMoniker": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\Views\\Website\\Shop.cshtml",
+              "RelativeDocumentMoniker": "Mall_Managment_System\\Views\\Website\\Shop.cshtml",
+              "ToolTip": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\Views\\Website\\Shop.cshtml",
+              "RelativeToolTip": "Mall_Managment_System\\Views\\Website\\Shop.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAQPRQAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-20T17:43:18.967Z",
+              "WhenOpened": "2024-06-29T17:55:48.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FoodCourt.cshtml",
+              "DocumentMoniker": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\Views\\Website\\FoodCourt.cshtml",
+              "RelativeDocumentMoniker": "Mall_Managment_System\\Views\\Website\\FoodCourt.cshtml",
+              "ToolTip": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\Views\\Website\\FoodCourt.cshtml",
+              "RelativeToolTip": "Mall_Managment_System\\Views\\Website\\FoodCourt.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T17:27:37.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "Mall_Managment_System\\Models\\Booking.cs",
+              "ToolTip": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\Models\\Booking.cs",
+              "RelativeToolTip": "Mall_Managment_System\\Models\\Booking.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T05:40:53.835Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "WebsiteController.cs",
               "DocumentMoniker": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\Controllers\\WebsiteController.cs",
               "RelativeDocumentMoniker": "Mall_Managment_System\\Controllers\\WebsiteController.cs",
               "ToolTip": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\Controllers\\WebsiteController.cs",
               "RelativeToolTip": "Mall_Managment_System\\Controllers\\WebsiteController.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAEEAAAAmAAAA",
+              "ViewState": "AQIAAE0AAAAAzczMzMwMwGIAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-20T17:42:38.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Feedback.cs",
-              "DocumentMoniker": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\Models\\Feedback.cs",
-              "RelativeDocumentMoniker": "Mall_Managment_System\\Models\\Feedback.cs",
-              "ToolTip": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\Models\\Feedback.cs",
-              "RelativeToolTip": "Mall_Managment_System\\Models\\Feedback.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T17:36:56.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Mall_Managment_System\\Controllers\\UserController.cs",
-              "ToolTip": "E:\\dot net core project\\Mall_Managment-System\\Mall_Managment_System\\Mall_Managment_System\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Mall_Managment_System\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T14:04:39.267Z",
               "EditorCaption": ""
             }
           ]
